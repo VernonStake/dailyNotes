@@ -1,0 +1,279 @@
+2:
+  text: "Work done:\n\n- Made changes to Kendall PR for the chart refactor. He made
+    changes to how the apiCalls are made, handle unauthorized exceptions from FC.\n-
+    Raised a PR for a quick fix on endlessly getting stuck consuming SQS message if
+    we error out when processing it.\n- Working on the searching of tags functionality:\n\t-
+    Added sector searching and tests.\n- ASX architecture meeting.\n- Had a meeting
+    RE trending. \n\n\nTODO:\n   - Use total units instead of available for trading
+    when calculating PnL"
+3:
+  text: "Start: 9:00\n\n- --Working on the searching of tags functionality--\n- Raised
+    PR for the search tag functionality\n- Raised JIRAs to fix:  \n  \n1. Use total
+    units when calculating PnL  \n\n2. Use seconds format instead of minutes when
+    cahching charts\n\nTODO: \n- Change the caching time for charts to seconds format
+    instead of minutes."
+4:
+  text: 'Start - 8:50
+
+
+    - Merged PR for labels search functionality
+
+    - Merged work to fix PnL caculations
+
+    - Started work on chart caching to use seconds format instead of minutes.
+
+
+    '
+5:
+  text: '9:10 - Start
+
+
+    - Working on the chart data IndexOutOfBoundsException bug. We are removing all
+    the data points when transforming for cases where the market open is not on the
+    5 min increment mark.
+
+    - Merged work to fix chart bug and use seconds time unit instead of minutes for
+    caching
+
+
+    17:00 Log off'
+6:
+  text: '9: 00 - Start
+
+
+    - Working on getting instruments that have a specified tag
+
+
+
+    17:00 - Log off'
+9:
+  text: '09:00 - Log on
+
+
+    - Working on the getting all instruments with tag.
+
+    -> Working on the tag type resolver
+
+    - Approved PR for Jesse for new Auth Service cache locking
+
+
+    12:30 Lunch
+
+    13:00 Back at desk
+
+
+    - Made excellent progress on get instrument by tag. Add a few more test cases
+    and then raise PR'
+10:
+  text: "9:00 - Logged on\n\n  - Finished off work for finding instrumetns by tag\n
+    \ - Merged PR for finding instrumetns by tag\n\n13:30 Lunch break\n14:00 Back
+    at desk\n\n  - Raised an d merged PR to add find by tag endpoint to the global
+    API gateway\n  - Raised and merged PR to remove GICS filter when downloading instruments\n
+    \ - Meeting RE work for Trending instruments\n\n17:00 - Log off"
+11:
+  text: "9:00 - Logged on\n\n  - "
+12:
+  text: '
+
+    Raised PR  in FuncfdingTradingAusService for the new end point to get order history
+    for a given hourly period'
+13:
+  text: '8:30 Logged on
+
+
+    - Working on the instrument view end point
+
+    - PR for endpoint to get order in a given time period merged
+
+    - Call with Andrew for catch up on progress RE trending
+
+    - Call with Kendall to help out related instruments
+
+    - Call with David C to help out with pricing script, running instrument service
+    locally
+
+
+
+    '
+16:
+  text: Sick
+17:
+  text: '9:00 Logged in
+
+
+    - Working on the cache behaviour for instrument views.
+
+    - Run into bug with dot (.) at the end of a path variable.
+
+    - Had to update dependencies to use newer version of spring-web that doesn''t
+    truncate dot (.) at end of path variable.
+
+    - Raised PR for the instrument view endpoint.
+
+    - Started working on the calculation of trending stocks.
+
+
+    17:00 Log off
+
+
+    // TODO add end point to the API gateway once merged'
+18:
+  text: "// TODO add end point to the API gateway once merged\n\n8:30 - Logged in\n\n-
+    Working on the popularity algorithm\n- Ran into issues with dependencies in dev,
+    resolved\n- Fixed a bug with downloading instruments with no GICS\n- Helped out
+    getting charts in STG working  \n\n\n18:00 Log off\n\n\n//Questions for Jesse:\n-
+    --A domain library for inter service messages?--\n- --Architecture for chron to
+    run in a single service only.--"
+19:
+  text: '// TODO add end point to the API gateway once merged
+
+
+    9:00 Logged on
+
+
+    - Picked up defect raised by Joel RE prices after market close.
+
+    - Discussed trading sessions with Joel and decided to add additional sessions
+    to the AsxTradingSessionResolver
+
+    - Picked up TE-54. Accept prices that are in pre-market
+
+    - Picked up TE-86. Accept prices that are after market close and before CSPA end
+
+    - Meeting with Adrew for progress update on Trending functionality and new sprint
+    structure
+
+    - ASX architecture meeting
+
+
+
+    16:15 Logged off for run'
+20:
+  text: "9:00 Log on \n\n- Merged in Holiday Common Library change that includes additional
+    sessions to the AsxTradingSessionResolver.\n- Merged in changes in the Instrument
+    Service so that prices are updated durin pre market session and CSPA.\n- Deployed
+    updated Instrument Service to STG.\n- Decreased the pricing update time to 1 second
+    in the by adding addional parameters for PricingAus Service in DEV and STG.\n-
+    Meeting RE the return of Sprints.\n\n16:30 Drinks and Quiz\n"
+23:
+  text: '9:00 Logged on
+
+
+    - Progressing with trending functionality. Can now get the orders from the FundingTradingAusService.
+
+    - Working on the TrendingAlgo, currently only going to use numOrders to calculate,
+    will iterate and add more metrics.
+
+    - Added end point to the Global API gateway for viewed instrument ----> Bug: Missing
+    @PreAuthorizeStakeStandardUser annotation
+
+    - Reviewed PR for Kendall to add more logging for Announcement handling
+
+    - Updated documentation for the ASX InstrumentService end points
+
+
+
+    18:00 Log off'
+24:
+  text: '9:00 - Logged on
+
+
+    #TODO Bug: Missing @PreAuthorizeStakeStandardUser annotation
+
+
+    - Got a lot done with the trending functinoality. Added a cache helper to perform
+    bulk insert and retrieval. Finished algo to use order count and cache the trending
+    score.
+
+    - Raised PR to fix missing @PreAuthorizeStakeStandardUser annotation for instrument
+    view end point.
+
+
+    17:15 Dinner'
+25:
+  text: '9:00 - Logged on
+
+
+    - Helped Kendall to sort out test case.
+
+    - Got end point working for triggering trending caclulation using only the ordercount
+    information.
+
+    - Ran into nasty bug with RedisCache when storing a value as Long, but converts
+    to Integer when smaller in redis, cannot deserialize it to Long.
+
+    Solution is to store the score as a string value to not lose any precision.
+
+
+
+    12:15 Log off'
+26:
+  text: "09:00 - Logged on\n\n- Picked up ticket to add ETFs to the instrument service.\n-
+    Added parameters in parameter store to include ETF in finclear products\n- Moved
+    finclear parameters to parameter store and out of code base.\n- Checked in STG
+    that prices work for ETFs.\n- Discovered NPE bug when requesting summary for ETF\n-
+    Reviewed PR for Kendall\n- Further work on the trending functionality  \n\n\n18:00
+    Log off"
+27:
+  text: '8:50 - Logged on
+
+
+    - Added a View manager class to handle the views cache cleaning up an counting.
+
+    - Couple of meetings
+
+    - Furhter work on the instruemnt counting.
+
+    - Friday drinks
+
+
+    18:00 Log off.'
+30:
+  text: '8:00 - Logged on
+
+
+    - Progress on the InstrumentViewsManager, made it possible to tidy up the cache
+    removing instrument older than x hours
+
+    - Reviewed PR for Jesse in MicroserviceCommon library.
+
+    - Reviewed second PR for Jesse in micro service commons library
+
+    - Finally figured out how to retrieve the views effectively from redis cache.
+
+    - Investigated bug with stake user events, duplicate primary key ids due to manual
+    additions and db sequence being out of sync.
+
+    - ASX architecture meeting.
+
+    - Raised PR for trending calculation.
+
+
+
+    22:30 Log off
+
+
+
+    #TODO: Fix primary key for UserProduct, change generated PKs to use UUIDs
+
+    #TODO: Make pagination in  tradingfuncding start at page 1, not 0'
+31:
+  text: '#TODO: Fix primary key for UserProduct, change generated PKs to use UUIDs
+
+    #TODO: Make pagination in  tradingfuncding start at page 1, not 0
+
+
+    8:20 Log on
+
+
+    - Working on primary key changes in services
+
+    - Meeting RE ASX blockers
+
+    - Thouroughly tested DB changes locally.
+
+    - Quick call with Andrew and Kendall
+
+
+
+    20:00 - Log off'

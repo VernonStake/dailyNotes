@@ -1,0 +1,334 @@
+1:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+    #TODO: Need to create a doc of what can be done in redis caching.\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Working on the order event consumer.
+
+    - Raised PR for the order event consumer.
+
+
+
+    17:00 - Log off
+
+    ===================='
+7:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+    #TODO: Need to create a doc of what can be done in redis caching.\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Investigated equity caching issue. Cache always retrusn false when evicting.
+
+    - Calls w/ David C and Kedall.
+
+    - Reviewd PRs for Kendall and David.
+
+
+
+    17:00 - Log off
+
+    ===================='
+8:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+    #TODO: --Need to create a doc of what can be done in redis caching.--\\
+
+    ====================
+
+    8:00 - Log on
+
+
+    - All hands meeting
+
+    - Trade testing.
+
+    - Run into issue with my buying power after AEF trades.
+
+    - Fixed bug for chart date range being incorrect after DST change. Deployed to
+    prod.
+
+    - Worked on  position caclulation improvements, going to manually calculate the
+    avg price instead of using FC.
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+11:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Working on the equity PnL enhancements.
+
+    - Verifying equity  position cache clearing.
+
+    - Raised PR for new calculation of average cost.
+
+
+
+    17:00 - Log off
+
+    ===================='
+12:
+  text: '#TODO: --Add time stamp to instruments when they added to the database.--\\
+
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Merged in average cost calculatioin work and deployed to staging.
+
+    - Tested out cache clearing for equity positions.
+
+    - Raised ticket to remove duplicate tags from summary.
+
+    - Raised ticket for chart bug when first price point is not 10 AM.
+
+    - Added created timestamp for instruments.
+
+
+
+    17:00 - Log off
+
+    ===================='
+13:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Sorted out created time not showing in DB.
+
+    - Deployed created time column to prod.
+
+    - Meeting w/ Andrew, David and Kendall.
+
+
+
+    17:00 - Log off
+
+    ===================='
+14:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Notified FC of another position bug following AEF trade.
+
+    - Reviewed PRs and merged work into stg
+
+    - Closed tickets for instrument created timestamp and avg price calculations.
+
+
+
+    17:00 - Log off
+
+    ===================='
+15:
+  text: '#TODO: --Update caching doc to add sumarry of dos and dont''s--\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Small change to lower log level when user''s FC account number not found.
+
+    - Approved a couple of PR''s.
+
+    - Investigated an issue with some equity positions not updating when placing a
+    SELL and then deleting the order. Issue looks to be on FC side, not ours.
+
+
+
+    17:00 - Log off
+
+    ===================='
+18:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Merged to dev removing the duplicate tags from instrument summary.
+
+    - Call w/ David RE trending tags work.
+
+    - Call w/ David RE int test.
+
+
+
+    17:30 - Log off
+
+    ===================='
+19:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Reviewed PR for David.
+
+    - Fixed a bug with test case that fails in CircleCI.
+
+    - Merged caching change for overnight position into production.
+
+    - Call w/ David to resolve a cache issue with the tag exploring.
+
+    - Tested out all of the changes in prod.
+
+
+
+    17:30 - Log off
+
+    ===================='
+20:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Fix for must up/down on markets page being different vs clicking most up/down.
+    Cache key issue.
+
+    - Looking at end points for removing instruments that are no longer on asx.
+
+
+
+    17:00 - Log off
+
+    ===================='
+21:
+  text: '#TODO: --Appointment with optomitrist at 11:30 -  13:30--\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Approved PR for David to remove duplicate tags from trending tags functionality.
+
+    - Worked on admin end points for removing instruments.
+
+
+
+    17:00 - Log off
+
+    ===================='
+22:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Worked on admin end points for removing instruments.
+
+    - Sprint retro.
+
+
+    17:00 - Log off
+
+    ===================='
+25:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Working on admin end point to delete instruments and get instrumetns that have
+    been remvoed.
+
+    - Meeting RE plan of attack for share transfers to clear equity cache.
+
+    - Raised issue w/ Finclear around company summary returning a 500 response.
+
+    - Investigated ADOM issue. It has not been delisted as far as I am aware.
+
+
+
+    17:00 - Log off
+
+    ===================='
+26:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Worked on admin end point to delete instruments.
+
+    - Uncovered small bug with charts when market closes.
+
+
+
+    17:00 - Log off
+
+    ===================='
+27:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Meeting RE runthrough of asx live pricing.
+
+    - Reviewd PR for David to remove duplicate related instruments.
+
+    - Working on admin endpoint to remove instruments no longer with Finclear.
+
+    - Haircut
+
+    - Call w/ David.
+
+    - Raised PR for admin endpoint to remove instruments no longer with Finclear.
+
+
+
+    23:59 - Log off
+
+    ===================='
+28:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Meeting RE run through of asx live pricing.
+
+    - Reviewd PR for David to remove duplicate related instruments.
+
+    - Working on admin endpoint to remove instruments no longer with Finclear.
+
+    - Haircut
+
+    - Raised PR for admin endpoint to remove instruments no longer with Finclear.
+
+    - Ticket RE position bug assigned to me.
+
+
+
+    23:59 - Log off
+
+    ===================='
+29:
+  text: "====================\n8:30 - Log on\n\n- \n\n\n===================="

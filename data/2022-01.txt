@@ -1,0 +1,271 @@
+10:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR for chi-x integration into live pricing flow.
+
+
+
+    18:30 - Log off
+
+    ===================='
+11:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Reviewed and requested changes on PR RE request for multiple live quotes.
+
+    - Live data catch up meeting.
+
+    - Reviewed and requested changes on PR RE courseOfSales.
+
+    - Meeting to go over intTest changes RE database setup and validation for test
+    cases, need to add a safe gaurd.
+
+    - Addressing PR comments for multiple live quotes PR.
+
+
+
+    18:00 - Log off
+
+    ===================='
+12:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Updated PR for muti live quote, added test cases and use batch cache operation
+    for retrieving multiple quotes.
+
+    - Updated PR to integrate CHI-X into live pricing, added a safeguard so that we
+    do not clear an environment database accidentally if a dev were to configure the
+    int tests to run while connected to a db in one of our environments.
+
+    - Fixed up conflicts for PRs getting merged.
+
+    - Picked up TE-509 to tidy up the course of sales response body.
+
+    - Fixed reporting behaviour for COS, we always charge customers for the first
+    time the view COS regardless of time of day.
+
+
+
+    18:00 - Log off
+
+    ===================='
+13:
+  text: '#TODO: --Update the docs with new field names for COS: https://hello-stake.atlassian.net/wiki/spaces/DEV/pages/1133346909/ASX+Live+Data+-+Course+of+Sales+API+details--
+
+    ====================
+
+    9:00 - Log on
+
+
+    - --Raised PR for the course of sales issues-- Merged
+
+    - --Debugging weird isReportable behaviour in DEV after integrating the CHI-X
+    into the live pricing flow.-- Fixed
+
+    - Got a fix out for isReportable being reset when we process status update from
+    CHI-X.
+
+    - Tested multiple and single quote endpoints w/ Andrew to verify delay pricing
+    and live pricing works.
+
+    - Started work to get the ASX delayed quotes to set reportable=false when delayed
+    price catches up with the live price.//
+
+
+
+    17:00 - Log off
+
+    ===================='
+14:
+  text: '====================
+
+    8:30 - Logged on
+
+
+    - --Working on functionality to make live prices non-reportable when asx delayed
+    catches up with the live stream.-- (Raised PR)
+
+    - Updated parameter store config to use new live data user credentials for depth
+    and CourseOfSales from both ASX and CHI-X (PR, merged into DEV).
+
+    - Investigating equity positions of a user that oversold units on request of Juliana.
+
+    - Started working on a unified reporting class to report on prices as they get
+    updated and when they get viewed. This will enable an auditing mechanism.
+
+
+
+    17:00 - Log off
+
+    ===================='
+17:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Got everything from dev into prod.
+
+    - PR approved for delayed pricing catching up to live, reportable = false.
+
+    - Worked on depth, have a decent data structure in place. (TE-554)
+
+
+
+    17:00 - Log off
+
+    ===================='
+18:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Sorted out inconsistencies between fileds in course of sales vs depth. Fixed
+    some datatypes. Deployed to dev.
+
+    - Test the course of sales change on FE branch, looks like it all works.
+
+    - Made good progress on the depth work.
+
+
+
+    17:00 - Log off
+
+    ===================='
+19:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Cast a quick eye on positions following a major finclear release.
+
+    - Continuing work on market depth.
+
+
+
+    03:00 - Log off
+
+    ===================='
+20:
+  text: "====================\n9:00 - Logged on\n\n- Merged market depth into dev.
+    \n- Added /instrument/aggregatedDepth endpoint to globalAPI. (dev & stg).\n- Catch
+    up meeting w/ Joel on progress. Lots of feedback for enhancements to make.\n-
+    Chat w/ Kirsten on structure of the response. Lots of good productive feedback.\n\n\n17:00
+    - Log off\n===================="
+21:
+  text: '====================
+
+    8:00 - Logged on
+
+
+    - Demo of ASX reward path.
+
+    - Updated docs on Depth end point and functionality.
+
+    - Further work on depth,  have the ID logic sorted out.
+
+
+    17:00 - Log off
+
+    ===================='
+24:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Raised PR for depth endpoint enhancements.
+
+    - Requested referal letter from Aline for residency application.
+
+    - Deployed instrument service with depth changes to DEV.
+
+    - Tested depth changes in DEV, we will need to request aggregatedDepth from FC
+    for ETF instruments.
+
+    - Picked up ticket to add totalBuyCount, totalSellCount, totalBuyValue, totalSellValue
+    to the depth response.
+
+
+    17:00 - Log off
+
+    ===================='
+25:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Fixed bug in instrument service when dereferencing  a Integer to primitve int
+    resulting in NPE. (deployed to stg)
+
+    - Deployed instrument service to staging. Contains new depth cahgnes.
+
+    - Quick shakedown test of the new depth functionality
+
+    - Raised PR for depth addition of totals to the response body.
+
+
+    17:00 - Log off
+
+    ===================='
+26:
+  text: Holiday
+27:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Sprint planning session
+
+    - Working on the updating of volume and orders when prices are received.
+
+    - Helped out Juliana get some info on posiiton that got oversold.
+
+
+    17:00 - Log off
+
+    ===================='
+28:
+  text: '====================
+
+    8:00 - Logged on
+
+
+    - Further work on the COS sales stats.
+
+    - Merged PR for the COS sale stats in cache.
+
+
+
+    17:00 - Log off
+
+    ===================='
+31:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Investigated issue in dev with retrieving dividends and company summary. Finclear
+    service unavailable.
+
+    - Raised PR for course of sales to include totals for daily trading stats.
+
+
+
+    17:30 - Log off
+
+    ===================='

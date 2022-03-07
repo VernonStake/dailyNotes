@@ -1,0 +1,236 @@
+2:
+  text: "====================\n9:00 - Log on\n\n- \n\n\n17:00 - Log off\n===================="
+3:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Sick leave
+
+
+    17:00 - Log off
+
+    ===================='
+6:
+  text: '====================
+
+    9:00 - Log on
+
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+7:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Call w David to figure out a strategy for testing when using time. Injecting
+    test clock into the application context.
+
+
+    17:00 - Log off
+
+    ===================='
+8:
+  text: day off
+9:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Call w/ David to sort out merge conflicts.
+
+    - Reviewed Kendall''s PR for explore cache smarter ttl logic.
+
+    - Reviewed Jesse''s PR for live pricing user in the PricingService.
+
+
+
+    17:00 - Log off
+
+    ===================='
+10:
+  text: xmas party
+13:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Reviewed PR for Devid C, requested lots of changes
+
+    - Raised PR for instrument-service to get Log4j hotfix in prod to dev
+
+    - Meeting to check behavior for ASX special trading sessions and holidays.
+
+    - Raised a PR to not run the "reset priorClose" cron job if it is an ASX holiday.
+
+    - Approved and merged David''s PR into dev.
+
+    - Little progress on the live pricing side.
+
+
+
+    17:00 - Log off
+
+    ===================='
+14:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Worked on live pricing functionality.
+
+    - Quick check up on the holiday handling in dev.
+
+    - Investigated somne issues with charts on holiday.
+
+
+
+    17:00 - Log off
+
+    ===================='
+15:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - **Approved** PR for David C in //microservice-common// for Ops Annotation. Requested
+    Jesse''s review as well before merging.
+
+    - **Approved** PR for Jesse in //pricingAus-service// for config based price publishing
+    for SQS queues.
+
+    - **Approved** PR for Andrew to fix //Chart bug// where we were checking points
+    > 1 instead of points > 0.
+
+    - **Reviewed** Kendall''s PR for saving //userLiveAccess// when an add user event
+    is received; **requested changes**.
+
+    - **Approved** Kendall''s PR for saving //userLiveAccess// when an add user event
+    is received.
+
+    - Further progress on the live pricing algorithm and handling.
+
+
+    17:00 - Log off
+
+    ===================='
+16:
+  text: '====================
+
+    8:00 - Log on
+
+
+    - Working on the live pricing handling.
+
+    - **Reviewed** PR for David C RE redis set operations helper to count entries
+    in set and get all entries. **Approved** after chagnes were made
+
+
+
+    17:00 - Log off
+
+
+    - Rugby Training\\
+
+
+
+    21:00 Log back on
+
+
+    - Working on the live pricing handling.\\
+
+
+
+    00:00 Log off
+
+    ===================='
+17:
+  text: '====================
+
+    8:00 - Log on
+
+
+    - Working on the live pricing handling.
+
+    - Started working on refactor required to resovle circular dependency.
+
+
+
+    17:00
+
+    ===================='
+20:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Working on refactor to resovle a circular dependency issue.
+
+    - Reviewed changes that are in DEV vs PROD.
+
+    - Raised PR to get instrument-service DEV -> STG. (approved).
+
+    - Approved PR to update log4j2 version instrument-service (another vulnerability
+    uncovered, DDOS).
+
+    - Raised PR to get instrument-service STG -> PRD. (approved).
+
+    - Created a summary of changes going into PRD for instrument-service.
+
+    - Raised PR for instrument-service explore functionality refactor.
+
+    - Raised RP for instrument-service live pricing update work.
+
+
+    17:00 - log off
+
+    ===================='
+21:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Merged PR for refactor.
+
+    - Merged PR for LivePricing update handling.
+
+    - Tested out the LivePricing in DEV and staging.
+
+    - Started working on adding chi-x to the live pricing.
+
+
+
+    16:30 - log off
+
+    ===================='
+22:
+  text: "====================\n9:00 - Log on\n\n- Working on integrating CHI-X prices
+    into the live pricing flow.\n- Meeting w/ Andrew, catch up and feedback. Pay raise
+    to 120k, talk of going towards principle engineer.\n- Approved and merged PR for
+    David C  RE isReportable flag. \n\n\n17:00 - log off\n===================="
+23:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Adding int test cases for the live pricing CHI-X integration.
+
+
+
+    17:00 - log off
+
+    ===================='

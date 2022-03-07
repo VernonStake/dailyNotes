@@ -1,0 +1,372 @@
+1:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Reivewed PR for Kendall
+
+    - Reviewed PR for David C.
+
+    - Worked on testing the share transfer issue. A few hicups with setting up.
+
+
+
+    17:00 Log off
+
+    ===================='
+2:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Approved and merged in David''s PR.
+
+
+
+
+    17:00 Log off
+
+    ===================='
+3:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Lots of testing in stg for new functionality + fixes.
+
+    - Added admin API endpoints to dev -> stg -> prd for remiving instruments.
+
+    - Deployed to prod. Can view and delete instruments that are no longer available
+    from finclear.
+
+    - Reached out to CS guys to verify that customers impacted by position bug can
+    now see their portfolio value.
+
+    - Working on clearing caches when instrument is deleted.\\
+
+
+
+    17:00 Log off
+
+    ===================='
+4:
+  text: "====================\n9:00 - Log on\n\n- Reviewed PR for Kendal RE depth,
+    raised some concerns with not having live data.\n- Approved and merged PR for
+    Kendall RE live pricing endpoint, no live pricing yet, just added an endpoint.\n-
+    Working on the cache clearing when we delete instruments.\n- Merged in cache clearing
+    work when instrument is deleted.\n\n\n15:30 - Optometrist appointment. Log off
+    \n===================="
+5:
+  text: '====================
+
+    8:00 - Log on
+
+
+    - Working on the last trade model.
+
+    - Tested cache clearing in dev when instrument is deleted.
+
+
+
+    17:00
+
+    ===================='
+8:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Moving cache operations to the common lib.
+
+    - Tested stg and prd
+
+
+
+    17:00
+
+    ===================='
+9:
+  text: "====================\n9:00 - Log on\n\n- Closed ticket to tidy up caches
+    when we delete an instrument. TE-442\n- \n\n\n17:00\n===================="
+10:
+  text: '====================
+
+    Sick leave
+
+    ===================='
+11:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Appointment with optometrist.
+
+    - Moved cache helpers and distributed lock stuff into microservice common lib.
+
+    - Worked w/ Andrew to tidy up the database of instruments, awaiting feedback on
+    what to do with instruments that have been de-listed. Only removed the options
+    and FPOs.
+
+    - Reviewed PR David and helped testing new announcements functionality.
+
+    - Raised PR for authorization-service to use common-lib DistributedLockService.
+
+    - Raised PR for instrument-service to use common lib for caching helper classes.
+
+    - Approved PR for Kendall''s end point fix for liveQuote.
+
+    - Reviewed David''s PR for sensitive announcements, just concerned with the maxNumberLatestAnnouncements.
+
+
+
+    17:00
+
+    ===================='
+12:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Approved David''s PR to add filter by market sensitive for announcements.
+
+    - Worked on the last trade model. Need to just hook in the distributed lock and
+    add int test.
+
+
+
+    17:00
+
+    ===================='
+15:
+  text: '====================
+
+    8:00 - Log on
+
+
+    - Worked on last trade stuff. Up to int test.
+
+    - Call w/ David to figure out test for his announcements work.
+
+
+
+    15:00 - log off early for appt.
+
+    ===================='
+16:
+  text: '#TODO: --Need to have catch up with Joel RE equityPositions changes-- \\
+
+    #TODO: Use sponsored units in equityposition calculations instead of back office
+    units.
+
+    ====================
+
+    8:00 - Log on
+
+
+    - Battling with the int test for last trade work.
+
+    - Meeting w/ Andrew to walk through the last trade work flow.
+
+    - Merged LastTrade work into dev.
+
+    - Reviewed PR for Kendall depth work.
+
+    - Meeting w/ Joel and relevant trading team RE issues around orders and equity
+    positions -> see TODOs.
+
+
+
+    17:00 - Dinner\\
+
+    19:00 - Logged back on\\
+
+
+    - Worked on AsxTradingSessionResolver to enable ability to determine the previous/next
+    session open/close.
+
+
+    21:00 - Log off
+
+
+
+    ===================='
+17:
+  text: "#TODO: --Use sponsored units in equityposition calculations instead of back
+    office units.--\n====================\n8:00 - Log on\n\n- Raised PR to merge additional
+    trading session methods for David to use with announcement filters.\n- Implemented
+    change in EquityPos caclulation to use sponsored units instead of backend units,
+    deployed to stg.\n- Call w/ David to sort out test cases.\n- Reviewed PR for David
+    re ut of market hours announcements\n- Tested last price change using the order
+    events from stake with Andrew.\n- Deployed changes to STG (Davids, announcement
+    changes, Kendall's live data + yield fix, and my EquityPos, small bug fixes and
+    last price).\n- Started work on the reporting table for live pricing/depth.\n\n\n17:00
+    - Log off\n====================\n#Tomorrow: \n- Testing w/ Joel and deploy to
+    prod @9:45\\\\\n- Working on the database design for reporting.\n"
+18:
+  text: '#TODO: --Testing w/ Joel and deploy to prod @9:45--\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Quick testing before prod deployment to gain confidence.
+
+    - Prod deployment. Ran into numerous bugs. (user positions missing, event endlessly
+    erroring, arithmetic exceptions when calculating PnL.
+
+    - Fixed bug for endlessly failing to consume an order event.
+
+    - Attempted to fix arithmetic exception bug. Not 100% sure what the cause was,
+    added more loggging info.
+
+    - Came up with an initial design for the reporting DB tables, have meeting later
+    w/ Andrew to discuss.
+
+
+
+    17:00 - Log off
+
+    ===================='
+19:
+  text: '#TODO: --Chat w/ Andrew about reporting table.--\\
+
+    #TODO: --Round numShares to whole value for sponsored units etc--\\
+
+    ====================
+
+    8:30 - Log on
+
+
+    - Merged fix for units to be non decimal into STG
+
+    - Merged fix for arithmetic exception when calculating PnL into STG.
+
+    - Meeting RE reporting and live data w/ rest of team.
+
+    - Work on reporting table entities.
+
+
+
+    17:00 - Log off
+
+    ===================='
+22:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Approved PR for Kendall depth.
+
+    - Approved PR for Kendall liveQuote.
+
+    - Baby sat the release to PROD.
+
+    - Nearly complete the tables for reporting. Just adding some test cases then will
+    raise PR.
+
+    - Discussions w/ Jesse for new live pricing stuff and feature toggling.
+
+
+
+    17:00 - Log off
+
+    ===================='
+23:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Helped Juliana get a list of all instruments in DB.
+
+    - Call w/ Jesse to discuss new config changes.
+
+    - Approved PR for Jesse for auth service into prd.
+
+    - Reporting table is merged in in dev.
+
+    - Reviewed David''s PR for course of sales.
+
+    - Worked on consumer for live prices from sqs queue and feature toggle.
+
+
+
+    17:00 - Log off
+
+    ===================='
+24:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Catch up w/ Andrew on live data progress.
+
+    - Call w/ David.
+
+    - Approved David''s PR for course of sales.
+
+    - Worked on the consumption of pricing messages.
+
+
+
+    17:00 - Log off
+
+    ===================='
+25:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR to consume prices off the SQS ASX live queue.
+
+    - Quick call w/ David.
+
+    - Pikced up ticker to implemnet caching of live prices.
+
+
+
+    17:00 - Log off
+
+    ===================='
+26:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR to consume prices off the SQS ASX live queue.
+
+    - Quick call w/ David.
+
+    - Picked up ticker to implemnet caching of live prices.
+
+
+
+    17:00 - Log off
+
+    ===================='
+29:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Fixed bug in the BatchCacheOpsHelper to check for empty collections before performing
+    an operation and logging a false error
+
+    - NPE fix when using order to update price, no price in cache.
+
+
+    17:00 - Log off
+
+    ===================='

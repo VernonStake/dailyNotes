@@ -1,0 +1,43 @@
+2022-03-08 09:15:09,546 INFO     Writing log to file "/home/vernonstake/.rednotebook/rednotebook.log"
+2022-03-08 09:15:09,546 INFO     System encoding: utf-8
+2022-03-08 09:15:09,546 INFO     Language code: en_AU
+2022-03-08 09:15:09,659 INFO     Running in portable mode: False
+2022-03-08 09:15:09,659 INFO     First Start: False
+2022-03-08 09:15:09,659 INFO     RedNotebook version: 2.24
+2022-03-08 09:15:09,669 INFO     System info: machine: x86_64, platform: Linux-5.13.0-30-generic-x86_64-with-glibc2.29, processor: x86_64, python_version: 3.8.10, release: 5.13.0-30-generic, system: Linux, GTK: (3, 24, 20), Glib: (2, 64, 2), PyGObject: (3, 36, 0), YAML: 5.3.1
+2022-03-08 09:15:09,813 DEBUG    Default font: Ubuntu 11
+2022-03-08 09:15:09,814 DEBUG    Default size: 11.0
+2022-03-08 09:15:09,860 INFO     Cloud ignore list: ['filter', 'these', 'comma', 'separated', 'words', 'and', '#tags']
+2022-03-08 09:15:09,860 INFO     Cloud include list: ['mtv', 'spam', 'work', 'job', 'play']
+2022-03-08 09:15:09,860 DEBUG    Start compiling regexes
+2022-03-08 09:15:09,861 DEBUG    Finished
+2022-03-08 09:15:09,870 DEBUG    Tray icon visible: False
+2022-03-08 09:15:09,870 INFO     Opening journal at '/home/vernonstake/.rednotebook/data'
+2022-03-08 09:15:09,870 DEBUG    Starting to load files in dir "/home/vernonstake/.rednotebook/data"
+2022-03-08 09:15:09,871 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2021-08.txt"
+2022-03-08 09:15:09,872 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2021-09.txt"
+2022-03-08 09:15:09,873 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2021-10.txt"
+2022-03-08 09:15:09,874 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2021-11.txt"
+2022-03-08 09:15:09,874 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2021-12.txt"
+2022-03-08 09:15:09,875 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2022-01.txt"
+2022-03-08 09:15:09,876 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2022-02.txt"
+2022-03-08 09:15:09,876 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2022-03.txt"
+2022-03-08 09:15:09,877 DEBUG    Finished loading files in dir "/home/vernonstake/.rednotebook/data"
+2022-03-08 09:15:09,914 INFO     Connected Signals: [<Signals.SIGHUP: 1>, <Signals.SIGINT: 2>, <Signals.SIGQUIT: 3>, <Signals.SIGABRT: 6>, <Signals.SIGTERM: 15>, <Signals.SIGTSTP: 20>]
+2022-03-08 09:15:09,914 DEBUG    Start took 0.254899263381958 seconds
+2022-03-08 09:15:09,914 DEBUG    Trying to enter the gtk main loop
+2022-03-08 09:15:09,932 DEBUG    Update the cloud
+2022-03-08 09:15:09,938 DEBUG    Background color: rgb(52,52,52)
+2022-03-08 09:15:09,938 DEBUG    Foreground color: rgb(255,255,255)
+2022-03-08 09:15:09,942 DEBUG    Cloud updated
+2022-03-08 09:15:09,944 INFO     Last backup was made -2913837 days ago
+2022-03-08 09:16:59,303 DEBUG    Loading file "/home/vernonstake/.rednotebook/data/2022-03.new.txt"
+2022-03-08 09:16:59,303 INFO     Wrote file /home/vernonstake/.rednotebook/data/2022-03.txt
+2022-03-08 09:16:59,304 INFO     The content has been saved to /home/vernonstake/.rednotebook/data
+2022-03-08 09:16:59,304 INFO     The content has been saved to '/home/vernonstake/.rednotebook/data'
+2022-03-08 09:16:59,309 DEBUG    Update the cloud
+2022-03-08 09:16:59,315 DEBUG    Background color: rgb(52,52,52)
+2022-03-08 09:16:59,315 DEBUG    Foreground color: rgb(255,255,255)
+2022-03-08 09:16:59,315 DEBUG    Cloud updated
+2022-03-08 09:25:09,841 INFO     Nothing to save
+2022-03-08 09:35:09,907 INFO     Nothing to save

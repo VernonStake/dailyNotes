@@ -1,0 +1,343 @@
+1:
+  text: "====================\n9:00 - Logged on\n\n- Deployed new instrument service
+    to DEV, tested and deployed to STG.\n- Catch up w/ Kirsten & Mark RE COS front
+    end.\n- Platform team catch up\n  - Need to sort out a weekly catch up w/ Jesse.\n
+    \ - Three phases to move into platform team, live data -> 50/50 split between
+    TE and Platform -> 85/15 Platform/TE\n- Picked up ticket to get aggregated depth
+    for the ETFs.\n\n\n17:30 - Log off\n===================="
+2:
+  text: SIck Leave
+3:
+  text: "====================\n8:30 - Logged on\n\n- Reviewing Andrew's PR for the
+    additioinal multiQuote endpoint.\n- Sometimes in CoS we get some zero value entries.
+    (BRN example).\n- \n\n\n17:00 - Log off\n===================="
+4:
+  text: '====================
+
+    7:30 - Logged on
+
+
+    - Reviewed Joel''s PR for the permissions end point. (Approved and merged).
+
+    - Approved and merged ANdrew''s PR for the multi quote end point.
+
+    - Helped Juliana get information on user''s equity positions.
+
+    - Raised PR for ETF depth instrument service.
+
+    - Raised PR for ETF depth API gateway.
+
+    - Picked up ticket to zero out live prices with cron. In progress
+
+    - Sprint retrospective.
+
+
+
+    17:00 - Log off
+
+    ===================='
+7:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Quickly fixed bug wher new multiquote user permission column was not being created.
+    (merged and deployed to dev).
+
+    - Debugged most up/down issue.
+
+    - Raised PR to get in the zero live prices when cron is fired (into stg).
+
+    - Picked up ticket to zero out sales stats (volume, value, etc).
+
+
+
+    17:00 - Log off
+
+    ===================='
+8:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Tested all changes in STG.
+
+    - Approved and Merged Kendall''s PR for most up/down fix.
+
+    - Deployed STG to PROD.
+
+    - Quick resolution w/ Kirsten to fix FE display when list of orders is empty for
+    depth response.
+
+    - Weekly sync meeting with Jesse RE platform work.
+
+    - Raised PR for zeroing out sales statistic for CoS (volume, value, orders).
+
+    - Reviewed PR for Kendall RE flushing reporting cache.
+
+    - Reviewed PR for Kendall RE permission caching.
+
+    - Merged Andrew''s PR for mutiQuoteTwo permission to the liveAccessResponse.
+
+    - Picked up ticket for making config for CoS and Depth TTLs dynamically updatable.
+
+
+
+    17:30 - Log off
+
+    ===================='
+9:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Reviewed Kendall''s PR for the reporting cron. Approved and merged
+
+    - Working on dynamically configurable ttl for depth and CoS.
+
+    - Live data prod preperation meeting w/ Jesse and Andrew.
+
+    - Raised PR for dynamic configuration of caching TTLs for depth CoS.
+
+    - Live data activated in PROD.
+
+
+
+    17:00 - Log off
+
+    ===================='
+10:
+  text: '====================
+
+    9:00 - Logged on
+
+
+    - Reviewed Kendall''s PR for explore functionality using live pricing.
+
+    - Debugged a failing int test.
+
+    - Approved PR for DEV -> STG -> PRD.
+
+    - Comprehensive testing in prod for the live pricing functionality. Able to request
+    live data and can accurately see reporting being performed.
+
+    - Live data dynamic ttl config not working, investigating why.
+
+
+
+    17:00 - Log off
+
+    ===================='
+11:
+  text: '====================
+
+    8:30 - Logged on
+
+
+    - All hands meeting.
+
+    - Fixed dynamic ttl not updating.
+
+    - Reviewed and approved Kendall''s PR for using live pricess for PnL calculations.
+
+    - Tested live data in prod.
+
+    - Quick walkthrough of live charts w/ Joel.
+
+
+
+    17:00 - Log off
+
+    ===================='
+14:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Testing live data functionality.
+
+    - Approved and merged Joel''s PR for the chart live data.
+
+    - Releases to STG and PRD.
+
+
+
+    17:00 - Log off
+
+    ===================='
+15:
+  text: "====================\n9:00 - Log on\n\n- Weekly catch up with Jesse\n  -
+    Look into RAFT protocol. (http://thesecretlivesofdata.com/raft/).\n- Merged a
+    fix for zero value course of sales.\n- Helped Kendall sort out an int test issue.\n-
+    Looking at GO stuff.\n\n\n17:00 - Log off\n===================="
+16:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Helped out Kendall with some DB issues.
+
+    - Reviewed and approved PR for Kendall''s admin work.
+
+    - Reviewed and approved PR for endpoint name change.
+
+    - Testing of live data. One possible bug at market close for live prices in.
+
+
+
+    17:00 - Log off
+
+    ===================='
+17:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Went in to office near lunch.
+
+    - Raised PR for prepending the ticker to the reporting IDs
+
+    - Made progress on fixing the admin end point to handle retrieving cache values
+    that are in sets.
+
+
+
+    17:00 - Log off
+
+    ===================='
+18:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - PR got merged into DEV for reporting IDs to include ticker.
+
+    - Worked further on fixing the caches admin end point.
+
+
+
+    17:00 - Log off
+
+    ===================='
+21:
+  text: '====================
+
+    8:30 - Log on
+
+
+    - Working on fixing the admin cache end point.
+
+    - Raised PR for admin cache end point fix. (Merged and deployed to dev)
+
+    - Tested admin cache end point fix in dev
+
+    - Reviewed PR for Kendall for downloading CSV file of live data reporting. (Approved
+    and merged into dev)
+
+    - Work on new admin end point for getting a quick overview of a users live data
+    usage.
+
+
+
+    17:30 - Log off
+
+    ===================='
+22:
+  text: '====================
+
+    8:45 - Log on
+
+
+    - Lots of progress on the new admin endpoint to get aggregated live data usage
+    for a monthly period.
+
+    - Got dev stuff into prod.
+
+
+
+    18:00 - Log off
+
+    ===================='
+23:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Progressed with the cost adjusted dasx live data usage algo.
+
+
+
+    18:00 - Log off
+
+    ===================='
+24:
+  text: out sick
+25:
+  text: '====================
+
+    8:00 - Log on
+
+
+    - All hands meeting.
+
+    - Catch up on progress and were we are tracking for the live data.
+
+    - Raised PR for admin endpoints for admin live data reporting endpoints (merged
+    to DEV).
+
+    - Catch up with Joel to have price reporting mechanism in the equity positions
+    flow.
+
+    - Added asx live data costs config into parameter store for dev, stg and prd.
+
+    - Raised PR for adminApi to add new data usage report endpoints (merged into DEV).
+
+    - Tidied up broken test cases for Joel''s price reporting mechanism on equity
+    positions.
+
+
+
+    18:00 - Log off
+
+    ===================='
+28:
+  text: '#TODO: --Documentation for multiple watch list end points.--\\
+
+    #TODO: Add order price updates into live pricing flow.
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Reviewed PR for Kendall RE live Index pricing . (finally approved and merged)
+
+    - Addressed comments on reporting live prices when calculating PnL where we are
+    reporting on admin requests. (merged into dev then stg) (TE-738)
+
+    - Added documentation for the watch list end points to engineering confuence space.
+    (TE-737)
+
+    - Picked up ticket to add order flow into live pricing
+
+    - Sorting out an issue with new cache entry for instrument type that got introduced.
+    (merged in dev)
+
+    - Approved and merged PR for Kendall RE new index permission transformation.
+
+    - Investigated weird build where changes were not included in the built service.
+    (merged into dev).
+
+
+
+    18:00 - Log off
+
+    ===================='

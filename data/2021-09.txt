@@ -1,0 +1,528 @@
+1:
+  text: '8:00 - Log on
+
+
+    - Reviewed PR for Kendall.
+
+    - Fixed bug when requesting order count for statistics update in InstrumentService.
+
+    - Merged dev to stg. Includes chart fixes, instrument statistics update.
+
+    - Sprint review meeting.
+
+    - Raised PR to update the primary key for user_product.
+
+    - Primary key fix deploy to stg and dev.
+
+    - Back log grooming w/ Andrew.
+
+    - Clarifified requirements for the treding stocks end point.
+
+    - Performance review w/ Joel.
+
+    - DB locked for 30 sec yesterday.
+
+
+
+    17:00 Log off
+
+    '
+2:
+  text: '9:00 - Log on
+
+
+    - Call w/ David C.
+
+    - Investigated DB issue. Looks like an AWS blip, will monitor for errors in coming
+    days.
+
+    - Got set up with beta app version.
+
+    - Some work done on new end point to get Trending stocks.
+
+    - Quick refactor/tidy up PR merged to dev.
+
+
+
+    17:00 Log off'
+3:
+  text: '9:00 Log on
+
+
+    - Catch up with David C RE caching
+
+    - Reviewed PRs for Kendall.
+
+    - Added change to use portfolioSponsoredUnits when calculating PnL.
+
+    - Approved PRs galore.
+
+    - Quiz and drinks at 16:30
+
+
+
+    17:20 log off'
+6:
+  text: '9:00 - Log on
+
+
+    - Call w/ David to help out with testing
+
+    - Call w/ Kendall to sort out a div/yield question
+
+    - Added a fix when checking for zero unit positions to use sponosred avialable
+    units instead of portfolio total untis
+
+    - Approved Kendall''s PR to fix charts and instrument search.
+
+    - Merged dev -> staging (PnL zero check, chart and search fixes)
+
+    - Worked on the trending end point. Discovered query DSL for creating dynamic
+    querries.
+
+    - Discussed some options for search improvement.
+
+
+
+    19:00 Log off
+
+
+    '
+7:
+  text: '7:30 Log on
+
+
+    - Added generated code for entites  using QueryDsl  for building dynamic querries.
+
+    - Call w/ David to check over test cases, looking really good.
+
+    - Approved and merged Kendall''s PR for div/yield and NPE fixes for company summary.
+
+    - Meeting w/ others for Instrument service progress update.
+
+    - Reviewed David''s PR, lots of comments
+
+    - Raised PR for the popularity functionality.
+
+
+
+    21:00 log off
+
+    '
+8:
+  text: "8:00 Logged on\n\n- Calls w/ Jesse and Andrew RE PR for trending\n- Merged
+    PR for trending functionality\n- Approved David's PR for announcements pagination\n-
+    Call w/ David RE PR and changes\n- Quick call w/ Kendall \n- Raised a PR to fix
+    the search instrument list order.\n- Raised a PR to fix some bugs uncovered testing
+    the explore end point.\n\n\n20:00 Log off"
+9:
+  text: '9:00 - Log on
+
+
+    - Meeting w/ Andrew and Joel RE pricing enhancements
+
+    - Call w/ David
+
+    - Update end point documentation.
+
+    - Merged dec -> staging
+
+    - Tested new functionality
+
+    - Approved bunch of PRs
+
+    - Bunch of calls
+
+
+
+    17:30 Log off
+
+
+    '
+10:
+  text: '#TODO: finish updating end point doc. Inlcude example of the explore filter
+    for Kristen
+
+
+    8:00 Log on
+
+
+    - Monthly catch up meeting
+
+    - Added sortBy functionality to the instrument/explore endpoint
+
+    - Approved Kendall''s PR adding the endpoint to trigger priorClose roll over
+
+    - Approved Kendall''s PR for adding high/low etc to price info
+
+    - Worked on pricing enhancements
+
+    - Updated end point docs
+
+
+
+    17:00 Log off
+
+    '
+13:
+  text: '9:00 - Log on
+
+
+    - Working on pricing enhancements
+
+    - Call w/ David C
+
+    - Merged Price changes into staging
+
+    - Applied bug fix for close rollover cron
+
+
+    18:30 Log off'
+14:
+  text: '9:00 - Log on\\
+
+
+    - Picked up ticket to get INDEX pricing working.\\
+
+    - Call w/ David.\\
+
+    - Bug discovered RE out of market pricing. Still not accepting out of hours prices
+    due to them not having a last trade field.\\
+
+    - Merged David''s PR for CEO data.\\
+
+    - Raised PR for out of market hours prices.\\
+
+    - Reviewed Kendall''s PR for chart improvements.\\
+
+    - Worked on index pricing \\
+
+
+
+    00:00 Log off'
+15:
+  text: '#TODO Update docs for pricing end point\\
+
+    #TODO Add timestamp field to instrument table\\
+
+
+    ====================
+
+    8:30 Log on\\
+
+
+    - Merged PR for pricing enhancements.
+
+    - Sprint review meeting.
+
+    - Meeting w/ Joel RE trading bug.
+
+    - Approved PRs For Kendall and to get staging -> dev.
+
+    - Calls w/ Kendall and David.
+
+    - Merged INDEX pricing first iteration into stg.
+
+    - Edited stg config to download INDEX.
+
+    - Quick test of INDEX pricing. It works!\\
+
+
+
+
+    18:30 Log off
+
+
+    ====================
+
+
+    #Questions for finclear:\\
+
+    1. For index pricing we are currently using the /marketData/{instrumentCodeId}/priceInfo
+    endpoint. Why are we not using /marketData/{instrumentCodeId}/indexInfo\\
+
+    2. /marketData/{instrumentCodeId}/indexInfo returns 404, relates to question 1.
+
+    '
+16:
+  text: '#TODO Update docs for pricing end point\\
+
+    #TODO Add timestamp field to instrument table\\
+
+
+    ====================
+
+    9:00 Log on
+
+
+    - Prod release meeting.
+
+    - Updatd parameters for prod release.
+
+    - Call w/ David.
+
+    - Fixed calculations for percentageChange and pointsChange in the pricing algo.
+
+    - Worked on caching for equity positions
+
+    - Call w/ David.
+
+    - Approved Kendall''s PR for instrument statistics.\\
+
+
+    ===================='
+17:
+  text: '#TODO --Update docs for pricing end point--\\
+
+    #TODO Add timestamp field to instrument table\\
+
+
+    ====================
+
+    9:00 Log on
+
+
+    - Reviewed David''s PR for instrument tags in summary message.
+
+    - Quick call w/ David RE integration test for the sumarry.
+
+    - Call w/ Kendall RE most u/down sorting issue.
+
+    - Updated the instrument service end point doc.
+
+    - Work on the equity position caching.
+
+
+
+    17:00 Log off
+
+    ====================
+
+    '
+20:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Call w/ David.
+
+    - Working on the index pricing fix and caching.
+
+    - Call w/ Kendall.
+
+    - Reviewed PR for David C.
+
+    - Approved Kendall''s PR for most up/down work.
+
+    - Approved David''s PR for the sumaary to include instrument tags.
+
+
+
+    17:00 Log off.
+
+    ===================='
+21:
+  text: '#TODO: Set page number to start at 0.\\
+
+    #TODO: Fix equityPositions to use backOfficePortfolioUnits
+
+
+    ====================
+
+    8:30 - Log on
+
+
+    - E-mailed FC regarding sponsored units issue for pending SELL order (SRJ).
+
+    - Call w/ David.
+
+    - Meeting RE equity positions with Joel and others.
+
+    - Working on index pricing fix.
+
+    - Approved PR for Kendall to have pages start at 0.
+
+    - Approved PR for David C to have instrument type in watchlist items.
+
+    - Raised PR for the IndexPricing fixes.
+
+
+
+    22:00 Log off
+
+    ===================='
+22:
+  text: '#TODO: Fix equityPositions to use backOfficePortfolioUnits\\
+
+    #TODO: Add time stamp to instruments when they added to the database.
+
+
+    ====================
+
+    9:00 -  Log on
+
+
+    - Meeting RE statistics for views, watches, trades + equity position changes.
+
+    - Merged Index pricing fixes into prod.
+
+    - Meeting RE statistics updates and to divvy up work.
+
+    - Work nearly done for equity position caching improvments + equity positioin
+    field chaanges.
+
+
+
+    22:00 Log off
+
+    ===================='
+23:
+  text: '#TODO: --Fix equityPositions to use backOfficePortfolioUnits--\\
+
+    #TODO: Add time stamp to instruments when they added to the database.
+
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Working on the equity pos caching and fixes.
+
+    - Call w/ David RE funcding trading service treade queries.
+
+    - Merged equities fix into dev.
+
+    - Call w/ David.
+
+    - Merged dev -> stg.
+
+
+
+    17:00 - Log off
+
+    ===================='
+24:
+  text: '#TODO: Add time stamp to instruments when they added to the database.
+
+
+    ====================
+
+    8:00 - Log on
+
+
+    - Legal training session.
+
+    - Merged equity pos changes into prod.
+
+    - Stand up -> need to look at fixing the equity pos changes, won''t reflect orders
+    outside market hours.
+
+    - Worked on announcements ordering.
+
+
+
+    16:30 - Log off
+
+    ===================='
+27:
+  text: '#TODO: Add time stamp to instruments when they added to the database.
+
+
+    ====================
+
+    8:45 - Log on
+
+
+    - Working on the announcements ordering.
+
+    - Merged announcements ordering fix into stg. Circle CI broken so no luck getting
+    into prod. Cleared dev announcements cache.
+
+    - Raised PR in MicroserviceCommon so that we can cache values as pure JSON. Also
+    able to ignore JSON fields that are not present in the java POJO.
+
+
+
+    20:00 Log off
+
+    ===================='
+28:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+    #TODO: --Clear prod announcement cache.--\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Tested announcements ordering fix in prod on AEF.
+
+    - Nuked the prd Announcement cache.
+
+    - Long call w/ David RE orderCount work.
+
+    - Working on serialization issues. Need to add a primary bean for spring. Need
+    defaultTyping present :(
+
+    - Long call w/ David.
+
+    - Reviewd multiple PRs for David and Kendall.\\
+
+
+
+    18:00 - Log off
+
+    ===================='
+29:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+    ====================
+
+    8:30 Log on
+
+
+    - Testing caching serialization locally with old cache data.
+
+    - Merged new version of the microservice-common holding cache improvements.
+
+    - Call w/ David C RE test issues.
+
+    - Sprint planning meeting
+
+    - Call w/ David C to continue fixing PR comments.
+
+    - Reviewed Pr for David RE the Trade count endpoint.
+
+    - Deployed serialization change to DEV and did shakedown test.\\
+
+
+
+    18:00 - Log off
+
+    ===================='
+30:
+  text: '#TODO: Add time stamp to instruments when they added to the database.\\
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Deployed caching serialisation fixes to PROD
+
+    - Lots of PRs
+
+    - Fixed most up/down to exclude lower than 5c stocks.
+
+    - Fixed index caching solution, we were caching index prices until next session.
+
+    - Progress on the sqs consumer to consume orders.\\
+
+
+
+    17:00 - Log off
+
+    ===================='
