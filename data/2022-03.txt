@@ -33,4 +33,195 @@
     on Kendall's PR for smart depth algo.\n- Worked on the order flowing into live
     pricing.\n- Multi watch list meeting. \n\n\n17:00 - Log off\n===================="
 8:
-  text: "#TODO: \n====================\n9:00 - Log on\n\n- \n\n\n17:00 - Log off\n===================="
+  text: '#TODO: Spring scheduler for cron events.
+
+    ====================
+
+    9:00 - Log on
+
+
+    - Weekly catch up w/ Jesse.
+
+    - Working on the admin end point to get user''s live data usage stats for year,
+    month, day, all time.
+
+    - Tested out that new live data logging functionality is working correctly.
+
+
+
+    17:00 - Log off
+
+    ===================='
+9:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Sprint review
+
+    - Working on the admin end point for getting user''s live data usage (TE-643)
+
+    - Dev update meeting for platform team.
+
+
+
+    17:00 - Log off
+
+    ===================='
+10:
+  text: "====================\n9:00 - Log on\n\n- Raised PR for admin endpoint to
+    get reporting data for users. (merged into dev) (TE-643)\n- Picked up ticket to
+    optimise the /equityPositions end point so that we can request a users position
+    for specified tickers.(TE-838)\n   - Doing refactor of how we go about getting
+    prices from cache.\n\n\n17:00 - Log off\n===================="
+11:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR for refactoring the live pricing algoritm.
+
+
+
+    17:00 - Log off
+
+    ===================='
+14:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Quick walkthrough the price retrieval refactor with Joel.
+
+    - Merged the price retrieval refactor into DEV.
+
+    - Call w/ Kendall to work through a couple of issues RE multi watchlist functionality.
+
+    - Working on the refined equity positions work.
+
+    - Reviewed PR for Kendall RE multi watch lists.
+
+
+
+    17:00 - Log off
+
+    ===================='
+15:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR for equity position retrieval end point change (merged into DEV).
+
+    - Tested that pricing refactor still workjing as expected.
+
+    - Approved Kendall''s PR for multi watchlist ground work.
+
+    - Meeeting w/ Joel and FE team to test out new equityPosition functionality.
+
+    - Picked up ticket to get auction prices in live pricing flow.
+
+    - Weekly meetup w/ Jesse RE platform work.
+
+
+
+    17:00 - Log off
+
+    ===================='
+16:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR for auction pricing changes. (TE-8384)
+
+    - Picked up ticket to handle daily live data usage tracking.
+
+
+
+    17:00 - Log off
+
+    ===================='
+17:
+  text: "====================\n9:00 - Log on\n\n- Picked up on an edge case for the
+    auction pricing RE setting reportable field while processing the out of market
+    prices.\n- Implemented quick fix for the auction pricing setting reportable =
+    false incorrectly. Merged into DEV (TE-834).\n- Working on the daily live data
+    usage tracking for users. (TE-842)\n  - Run into some difficulty with the cache
+    not ret.\n- Reviewed a couple PRs for multi watch list functionality.\n\n\n17:00
+    - Log off\n===================="
+18:
+  text: "====================\n9:00 - Log on\n\n- Approved PR for Kendal RE renaming
+    watchlist. \n- Working on cache iossue for the daily reporting work. (TE-842)\n-
+    Got a new common method in place to perform batch counting of set caches.\n- Made
+    progress on the daily reporting cache functionality.\n\n\n17:00 - Log off\n===================="
+21:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Raised PR for user daily live data uasge tracking (Merged all the way into prod).
+    (TE-842)
+
+    - Reviewed Kendall''s PR RE last viewed functionality for multi watch lists (Approved).
+
+    - Approved PR for API gateway for Kendalll multi watchList.
+
+    - Raised PR to make the close to last job a chron running in service.
+
+
+
+    17:00 - Log off
+
+    ===================='
+22:
+  text: '====================
+
+    9:00 - Log on
+
+
+    - Removed event from event bridge in dev
+
+    - Meeting w/ Jesse for weekly catch up.
+
+    - Approved PR for Kendall RE watch list searching.
+
+    - Going through go stuff.
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+23:
+  text: '====================
+
+    8:30 - At the office
+
+
+    - Uncovered interseting CoS behaviour, reached out to Matt RE whether this will
+    be reportable.
+
+    - Sprint review for TE.
+
+    - Sprint review for PLATFORM.
+
+    - Merged the spring scheduler work into STG.
+
+    - Great progress with learning Go.
+
+
+
+
+    17:16 - Log off
+
+    ===================='
+24:
+  text: "====================\n9:00 - Loged on\n\n- \n\n\n\n17:16 - Log off\n===================="
