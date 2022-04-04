@@ -34,10 +34,7 @@
     \ on Kendall's PR for smart depth algo.\n- Worked on the order flowing into live\
     \ pricing.\n- Multi watch list meeting. \n\n\n17:00 - Log off\n===================="
 8:
-  text: "#TODO: \n====================\n9:00 - Log on\n\n- \n\n\n17:00 - Log off\n\
-    ===================="
-29:
-  text: '#TODO: --Merge the PR for stg -> prd for instrumentService--
+  text: '#TODO: Spring scheduler for cron events.
 
     ====================
 
