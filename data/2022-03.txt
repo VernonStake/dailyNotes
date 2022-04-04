@@ -1,11 +1,12 @@
 1:
-  text: "#TODO: Add order price updates into live pricing flow.\n====================\n9:00
-    - Log on\n\n- Tested out the liveQuote stuff, picked up some bugs.\n- Catch up
-    w/ Jesse RE platform team work.\n- Discussion around changes for index quote and
-    live price times.\n- Added a fix so that we return live prices at the correct
-    time. \n- Tested fix for the live pricing times. Correctly retrieve live prices,
-    but currently we are not updating live prices between market close and CSPA. (Raise
-    w/ Joel, use BOQ trades from today as example).\n\n19:00 - Log off\n===================="
+  text: "#TODO: Add order price updates into live pricing flow.\n====================\n\
+    9:00 - Log on\n\n- Tested out the liveQuote stuff, picked up some bugs.\n- Catch\
+    \ up w/ Jesse RE platform team work.\n- Discussion around changes for index quote\
+    \ and live price times.\n- Added a fix so that we return live prices at the correct\
+    \ time. \n- Tested fix for the live pricing times. Correctly retrieve live prices,\
+    \ but currently we are not updating live prices between market close and CSPA.\
+    \ (Raise w/ Joel, use BOQ trades from today as example).\n\n19:00 - Log off\n\
+    ===================="
 2:
   text: '#TODO: --Raise CSPA pricing w/ Joel, use BOQ trades from today as example.--\\
 
@@ -28,9 +29,94 @@
 
     ===================='
 3:
-  text: "#TODO: Add order price updates into live pricing flow.\n====================\n9:00
-    - Log on\n\n- Call w/ Kendall to help out with int tests\n- Requested changes
-    on Kendall's PR for smart depth algo.\n- Worked on the order flowing into live
-    pricing.\n- Multi watch list meeting. \n\n\n17:00 - Log off\n===================="
+  text: "#TODO: Add order price updates into live pricing flow.\n====================\n\
+    9:00 - Log on\n\n- Call w/ Kendall to help out with int tests\n- Requested changes\
+    \ on Kendall's PR for smart depth algo.\n- Worked on the order flowing into live\
+    \ pricing.\n- Multi watch list meeting. \n\n\n17:00 - Log off\n===================="
 8:
-  text: "#TODO: \n====================\n9:00 - Log on\n\n- \n\n\n17:00 - Log off\n===================="
+  text: "#TODO: \n====================\n9:00 - Log on\n\n- \n\n\n17:00 - Log off\n\
+    ===================="
+29:
+  text: '#TODO: --Merge the PR for stg -> prd for instrumentService--
+
+    ====================
+
+    9:00 - Log on
+
+
+    #PLATFORM
+
+    - Moving through the go course on coursera.
+
+    - Finished the go course on coursera.
+
+
+    #TE
+
+    - Raised small PR to remove dependency on local AWS config for int tests.
+
+    - Raised PR to merge instrument-service stg - > prd. (merged)
+
+
+
+    18:45 - Hit the gym
+
+    21:00 - Back at desk
+
+    22:30 - Log off
+
+    ===================='
+30:
+  text: '====================
+
+    9:00 - At the office
+
+
+    #PLATFORM
+
+    - Started development on the bigtable client
+
+
+
+    #TE
+
+    - Started getting lots of exceptions in prod related to charts and divedends,
+    issue on FC side.
+
+    - Identified some issues to be addressed in the instrument-service.
+
+    - Raised 3 tickets to deal with issues identified in instrument-service (TE-973,
+    973, 974)
+
+
+    17:30 Left office
+
+
+    ===================='
+31:
+  text: '====================
+
+    9:00 - At the office
+
+
+    #PLATFORM
+
+    - Started development on the bigtable client
+
+
+
+    #TE
+
+    - Started getting lots of exceptions in prod related to charts and divedends,
+    issue on FC side.
+
+    - Identified some issues to be addressed in the instrument-service.
+
+    - Raised 3 tickets to deal with issues identified in instrument-service (TE-973,
+    973, 974)
+
+
+    17:30 Left office
+
+
+    ===================='

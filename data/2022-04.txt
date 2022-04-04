@@ -1,0 +1,44 @@
+1:
+  text: '====================
+
+    8:30 - Logged on
+
+
+    - Had a ctach up with Andrew.
+
+    - Sprint retro.
+
+
+    #PLATFORM
+
+    - Got big table running and created firtst table using cmd. Now understand how
+    big table works with it''s columns.
+
+
+    #TE
+
+    - Made crons changes to account for daylight savings changes.
+
+
+
+    17:00 - Log off
+
+    ===================='
+4:
+  text: '====================
+
+    8: 00 - Logged on onboard train.
+
+
+    #PLATFORM
+
+
+
+    #TE
+
+
+
+
+    17:00 - Log off
+
+    ===================='

@@ -1,2 +1,4 @@
 rednotebook.log
+*.log
 \tmp
+configuration.cfg
