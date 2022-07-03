@@ -1,0 +1,252 @@
+2:
+  text: "====================\n8:30 - Logged on at home\n\n#PLATFORM\n- Finished off\
+    \ the svc-api-external initial version.\n\n\n#TE\n- \n\n22:00 - Log off\n===================="
+3:
+  text: "====================\n8:30 - Logged on at home\n\n#PLATFORM\n- Finished off\
+    \ the svc-api-external initial version.\n\n\n#TE\n- \n\n13:00 - Log off sick\n\
+    ===================="
+4:
+  text: Sick day
+5:
+  text: Sick day
+6:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Raised ticket\
+    \ to address pubsub no error on publish (PLATFORM-132)\n- Raised ticket to address\
+    \ separate consumer/producer config for pub sub (PLATFORM-133)\n- Raised ticket\
+    \ to address error after usccesfully running db migration scripts (PLAFORM-134)\n\
+    - Raised PR and merged for user infomration in header, and a bug fix for bench\
+    \ mark test (PLATFORM-128)\n- Approved PR for Jags for oms-service endpoints.\n\
+    \n\n#TE\n- \n\n17:00 - Log off\n===================="
+9:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Raised ticket\
+    \ to remove big table code from the chassis\n- Release for microservice chassis\
+    \ (v0.10.0) for user info header (PLATFORM-128)\n- Working on integrating with\
+    \ redis to get authentication details.\n- Approved quick PR for Jags RE a quick\
+    \ fix for secrets.\n- Raised a ticket to address the database connections living\
+    \ forever and pulled into sprint (PLATFORM-136)\n\n\n#TE\n- \n\n17:00 - Log off\n\
+    ===================="
+10:
+  text: "====================\n8:30 - Logged on at home\n\n#PLATFORM\n- Working on\
+    \ auth integration using redis in svc-api-external(PLATFORM-128)\n\n\n\n#TE\n\
+    - \n\n19:00 - Log off\n===================="
+11:
+  text: "====================\n7:15 - Logged on at home\n\n#PLATFORM\n- Working on\
+    \ auth integration using redis in svc-api-external(PLATFORM-128)\n- Raised PR\
+    \ for auth integration in svc-api-external (PLATFORM-128)\n- Merged in auth integration\
+    \ in svc-api-external (PLATFORM-128)\n- Picked up, raised PR, merged and released\
+    \ new micro-service-chassis v0.11.0 with DB copnfig changes for connections (PLATFORM-136)\n\
+    - Picked up ticket to add middleware support \n\n\n17:00 - Log off\n===================="
+12:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Tested out\
+    \ the logout flow for api-external to return unauthorised (success)\n- Multi watchlist\
+    \ and OMS drive meeting\n- Catch up w/ Jesse + tidied up some of the spring. Pulled\
+    \ in some tickets and removed some others\n- Raised PR for the middleware support\
+    \ for rest services. (PLATFORM-127)\n- Picked up ticket and raised PR to not log\
+    \ an error when the DB migration is run and no changes have been made (PLATFORM-134)\n\
+    - Picked up ticket and raised PR to return an error when pubsub publisher errors\
+    \ while publishing (PLATFORM-132)\n- Weekly go dev discussion.\n- Picked up ticket\
+    \ to add datadog tracing to websocket client (PLATFORM-99).\n- Approved PR from\
+    \ Patrick to change config for connecting to redis for svc-api-external to use\
+    \ new aliasses.\n- Merged in dependency updates for microservice-chassis and testcontainers\
+    \ in svc-api-external.\n- Commented and later approved PR for Kendall RE a new\
+    \ us-instrument endpoint in svc-api-external.\n- Raised, picked up and merged\
+    \ ticket to add CORS headers to responses from svc-api-external. (PLATFORM-141)\n\
+    \    - Issue with the CORS stuff, need more work on the chassis to support multiple\
+    \ methods mapped to the same endpoint.\n\n\n\n18:00 - Log off\n===================="
+13:
+  text: "====================\n8:00 - Logged on at home\n\n#PLATFORM\n- Fixed issue\
+    \ with CORS handling OPTIONS endpoints in the api-external, re-raised PR. (PLATFORM-141)\n\
+    - Picked up task to implement a CORS handling functionaity within the chassis.\n\
+    - Improved db migration handling \n\n\n\n\n16:30 - Log off\n===================="
+16:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Approved PR for Jesse to add traceing between services in chassis (PLATFORM-143)
+
+    - Approved PR to get new tracing http client into API gateway (PLATFORM-143)
+
+    - Raised PR and approved to make the number of database connections configurable,
+    default to 4 if no config found.
+
+    - Approved PR to supress rest health check logging.
+
+    - Worked on CORS capabilities in chassis.
+
+
+
+    17:00 - Log off
+
+    ===================='
+17:
+  text: '====================
+
+    9:00 - Logged on at office
+
+
+    #PLATFORM
+
+    - Created ticket and raised PR to address incorrect panicking behaviour when migration
+    function is not able to get database lock. (PLATFORM-145) - merged + released
+
+    - Working on CORS functionality in chassis. (PLATFORM-144)
+
+    - Multi watch list tech demo.
+
+
+
+    17:00 - Log off
+
+    ===================='
+18:
+  text: '====================
+
+    8:30 - Logged on at office
+
+
+    #PLATFORM
+
+    - Working on the CORS support in chassis.
+
+
+
+    17:00 - Log off
+
+    ===================='
+19:
+  text: "====================\n8:30 - Logged on at home\n\n#PLATFORM\n- Finishing\
+    \ off the CORS handling in service. Merged into chassis. (PLATFORM-144)\n- Approved\
+    \ PR for Jaggs RE adding new OMS endpoint in api-external.\n- Picked up work again\
+    \ to finish ticket for middleware support. (PLATFORM-127) \n\n\n17:00 - Log off\n\
+    ===================="
+20:
+  text: '====================
+
+    8:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - AHOD meeting.
+
+    - Updated PR for the custom middleware.
+
+
+
+    17:00 - Log off
+
+    ===================='
+23:
+  text: '====================
+
+    9:15 - Logged on at home
+
+
+    #PLATFORM
+
+    - Worked on te web socket re-connection logic.
+
+
+
+    17:00 - Log off
+
+    ===================='
+24:
+  text: "**Q for weekly sync:**\n- GetPlainTextConfig logs an error if no env variable\
+    \ is set. Annoying for having default values. Should we rather return an error\
+    \ and let the Initialise functions do error handling.\n  - Add in a second method\
+    \ that you pass a default value to. E.g. GetPlainTextConfigOrDefault\n\n====================\n\
+    9:00 - Logged on at office\n\n#PLATFORM\n- Weekly sync with Jesse.\n- Working\
+    \ on the web socket reconnect logic.\n\n15:30 Leaving office\n- A bit of work\
+    \ on the train, but train schedule changed with big delays.\n\n17:00 - Log off\n\
+    ===================="
+25:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Reviewed PR for Jason RE datadog metric monitoring.
+
+    - Working on the web socket reconnect logic.
+
+
+    17:00 - Log off
+
+    ===================='
+26:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Finally got the int testing done for the socket reconnect functionality, raised
+    a PR (PLATFORM-123)
+
+    - Removed bigtable stuff from the microservice-chasis, raised PR (PLATFORM-135)
+
+    - Picked up ticket to update the svc-api-external to use chassis built in CORS
+    and middleware + some tidying up.
+
+    - Approved PR for Jason for DB connection pool telemetry in the microservice-chassis.
+
+
+    17:00 - Log off
+
+    ===================='
+27:
+  text: Leave
+30:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Merged new chassis version into tpl.
+
+    - Fixed bug in chassis where database password was being logged when migration
+    scripts are run. (MERGED)
+
+    - Working on PR comments for web socket reconnect, account for service with multiple
+    websocket clients. (PLATFORM-123)
+
+    - Merged PR for bigtable code removal from chassis. (PLATFORM-135)
+
+
+
+    17:00 - Log off
+
+    ===================='
+31:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Weekly sync meeting w/ Jesse.
+
+    - Worked on the web socket auto-reconnect PR comments.
+
+
+
+    #TE
+
+    - Call w/ Andrew and Kendall RE pre-market pricing issue
+
+
+
+    17:00 - Log off
+
+    ===================='

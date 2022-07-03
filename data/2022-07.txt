@@ -1,0 +1,25 @@
+1:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Raised PR in CORE to get admin auth tokens published into GCP redis. (PLATFORM-172)
+
+    - Reading up on CRDB behaviour to enable us to use CRDB as a distributed locking
+    mechanism (PLATFORM-113)
+
+    - Big tidy up PR on chassis after properly getting linter working in local dev
+    env.
+
+
+
+    17:00 - Log off
+
+    ====================
+
+
+
+    '

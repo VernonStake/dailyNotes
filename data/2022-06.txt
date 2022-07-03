@@ -1,0 +1,431 @@
+1:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Reviewed PR for Jaggs.
+
+    - PLATFORM sprint review meeting.
+
+    - Finished making changes for the web socket reconnect, got great int test coverage
+
+
+
+    17:00 - Log off
+
+    ===================='
+2:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Uncovered issue with how we shut down the web socket clients where go routines
+    continue to spawn themselves, working out a solution.
+
+    - Not much progress with api-external.
+
+
+
+    17:00 - Log off
+
+    ===================='
+3:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Updated web socket client to gracefully exit connection retry loop when service
+    is shutdown after a server has closed a web socket connection. (PLAFROM-123)
+
+    - Merged PR for the web socket auto reconnect functionality. (PLATFORM-123)
+
+    - Replaced the custom definitions for CORS handling for every endpoint in api-external
+    with chassis CORS built in functionality. (PLATFORM-151)
+
+    - Started tearing out hacked in auth functionality from api-external and replacing
+    it with a proper middleware functionality. (PLATFORM-151)
+
+
+    17:00 - Log off
+
+    ===================='
+6:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Ripped out the auth from the request forwarding functionality and made it proper
+    middleware in svc-api-external.
+
+
+    17:00 - Log off
+
+    ===================='
+7:
+  text: '====================
+
+    8:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Performance review explainer meeting.
+
+    - Weekly PLATFORM team sync
+
+    - Established a pattern for building routes in a generic way in svc-api-external
+    (PLATFORM-151)
+
+
+    17:00 - Log off
+
+    ===================='
+8:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Reviewed a PR for Jaggs RE calculating brokerages in crypto-oms. Requested changes
+    and approved.
+
+    - Got gomock generation working for api-external (PLATFORM-151)
+
+    - Progressed with the refactor in api-external, a bit more work than what I originally
+    expected. (PLATFORM-151)
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+9:
+  text: '====================
+
+    7:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Nearly finished on the api-external refactor, just adding int tests to verify
+    each endpoint can be hit. (PLATFORM-151)
+
+    - OMS drive meeting
+
+    - Investigated issue with GOLD ETF following stock split.
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+10:
+  text: '====================
+
+    8:30 - Logged on at office
+
+
+    #PLATFORM
+
+    - Polishing up the CORS and middleware update, found a bug in chassis middleware
+    functionality: if middleware set the status of the response, the normal handler
+    request handler logic would still get executed. (PLATFORM-151)
+
+    - Got a fix in place for the chassis middleware bug, Jesse did the first beta
+    chassis release, pulled the fix into the api-external.
+
+
+
+    16:30 - Log off for quiz
+
+    ===================='
+14:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Raised PR for the svc-api-external update to CORS and auth functionality. (PLATFORM-151)
+
+    - Started looking at graceful disconnect handling for CRDB during query execution.
+    (PLATFORM-155)
+
+    - Adressing PR comments for the auth and CORS update in svc-api-external. (PLATFORM-151)
+
+
+
+    17:00 - Log off
+
+    ===================='
+15:
+  text: '====================
+
+    9:00 - Logged on at office
+
+
+    #PLATFORM
+
+    - Updated PR for the svc-api-external update to CORS and auth functionality. (PLATFORM-151)
+
+    - Investigated issue for svc-api-external where services where services where
+    responding with errors, the user token header was broken (PLATFORM-151)
+
+    - Raised a new PR that fixed the user tken header in svc-api-external. Merged
+    and deployed. (PLATFORM-151)
+
+    - Started looking at graceful disconnect handling for CRDB during query execution.
+    (PLATFORM-155)
+
+    - Looked into issue with connecting to the database in svc-crypto-oms. No idea
+    what the problem is, but feel certain that not related to new api-external.
+
+    - Reviwed PR for Jaggs to use correct http method for one of the crypto-oms endpoints
+    in api-external.
+
+    - Reviewed PR for Jaggs to close statements once they are finished executing in
+    svc-crypto-oms.
+
+
+
+    22:30 - Log off
+
+    ===================='
+16:
+  text: '====================
+
+    8:30 - Logged on on train
+
+
+    #PLATFORM
+
+    - Dive into some of the database metrics, uncovered that connections are not being
+    released by the svc-crypto-oms, no idea why.
+
+    - Continued working on the graceful retry for CRDB queries failing. (PLATFORM-155)
+
+
+
+    17:00 - Log off
+
+    ===================='
+17:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Finally fixed my broken windows updater, turns out a random windows installer
+    was the owner of system32 files (not anymore), and all access was denied, even
+    to admin users.
+
+    - Worked on the graceful handling of database desconnect when performing querries
+    (PLATFORM-155).
+
+    - Had a brief look into why the authentication redis GET trace is not being correlated
+    to the request. Can''t find a reason, raised ticket to investigate in depth later.
+
+    - Uncovered an issue in the API external with CORS for requests that have path
+    variables.
+
+
+
+    17:00 - Log off
+
+    ===================='
+20:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Fixed CORS\
+    \ and middleware bug in lib-microservice-chassis, related to PLATFROM-151\n- New\
+    \ beta release for chassis containing CORS + middleware fix. (PLATFORM-151)\n\
+    - Updated svc-api-external with new beta release of chassis to fix CORS issues\
+    \ for endpoints that have path parameters (PLATFORM-151)\n- Quick test to verify\
+    \ that the CORS handling is working correctly in the api-external.\n- Approved\
+    \ PRs for Jaggs for uplift of chassis version in svc-crypto-ws and PRs for svc-crypto-oms\
+    \ for order flows.\n- Approved PR for Jesse to add region to the stake user token.\
+    \ \n- Encountered an issue where tests where just freezing, turns out I replicated\
+    \ the bug ssen in crypto-oms by not closing database transactions/statements/rows\
+    \ in the test cases. Hunted down all the different types that need to be closed\
+    \ and closed them.\n\n\n20:00 - Log off\n===================="
+21:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Weekly sync w/ Jesse.
+
+    - Deployed svc-api-external to pre-prod and to prod. Looks like it''s running
+    smoothly, closed ticket (PLATFORM-151)
+
+    - Finished dev work on CR DB retry error handling and raised a PR. (PLATFORM-155)
+
+    - Picked up ticket to implement datadog tracing for web socket. (PLATFORM-99)
+
+
+
+    17:00 - Log off
+
+    ===================='
+22:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Approved PR for Jesse in lib-microservice-chassis to add region details to user
+    token. (PLATFORM-162)
+
+    - Approved more PRs for Jesse
+
+    - Released v0.16.0 of the microservice chassis, contains websocket reconnect,
+    db retry and other functionality.
+
+    - Golang dev catch up metting
+
+    - Raised PR, merged and released chassis v0.16.1 that exposed generated mocks
+    for chassis provided interfaces.
+
+    - Ripped out locally generated mocks for chassis lib in svc-api-external and replaced
+    with new generated mocks from chassis itself.
+
+    - Very litte progress with the web socket tracing.
+
+
+
+    17:00 - Log off
+
+    ===================='
+23:
+  text: sick leave
+24:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Worked on the tracing for web socket
+
+
+
+    16:30 - Log off
+
+    ===================='
+27:
+  text: '====================
+
+    7:45 - Logged on on train
+
+
+    #PLATFORM
+
+    - Worked on the tracing for web socket, written integration tests, one or two
+    more to go then raising a PR (PLATFORM-99)
+
+    - Lots of colaboration with Matt and Kendall on ASX issues
+
+    - Reviewed PR for Kendall RE market status for ASX.
+
+
+
+    17:30 - Log off
+
+    ===================='
+28:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Raised PR for the websocket tracing ticket. Approved and merged, ticket closed.
+    (PLATFORM-99)
+
+    - Approved PR for Matt on fixing int tests in ASX instrument service and downloading
+    miss classed instruments from finclear.
+
+    - Call w/ Kendall on market status stuff.
+
+    - Started looking at the global lock implementation. (PLATFORM-113)
+
+
+
+    17:30 - Log off
+
+    ===================='
+29:
+  text: '====================
+
+    9:15 - Logged on at home
+
+
+    #PLATFORM
+
+    - Started investigating implementing distributed lock using cockroach DB, sidelined
+    for higher priority work. (PLATFORM-113)
+
+    - Created repository for new svc-api-internal. (PLATFORM-171)
+
+    - Added initial code and structure to the svc-api-internal (PLATFORM-171). Initial
+    infrastructure PRs have been approved.
+
+    - Picked up ticket to work on stack-core to integrate with redis in GCP for admin
+    athentaction, blocked by environment issues with IDE not being able to start up.
+    (PLATFORM-172)
+
+    - Did a windows repair to try and fix environment issues with IDE unable to boot.
+    Fixed updates being unable to install, but IDE still broken.
+
+
+
+    17:00 - Log off
+
+    ===================='
+30:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Technical difficulties, only got into PC at 9:30.
+
+    - Sorted out env issues on my laptop to get into java services.
+
+    - Merged in the initial version for api-internal (PLATFORM-171). Service is now
+    sitting idle in UAT.
+
+    - Picked up ticket to publish admin security tokens into GCP redis, soon to raise
+    PR. Just throwing a careful eye. (PLATFORM-172)
+
+
+
+    17:00 - Log off
+
+    ===================='

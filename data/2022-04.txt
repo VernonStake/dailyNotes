@@ -32,9 +32,72 @@
 
     #PLATFORM
 
+    - Meeting RE cockroach client usage in go apps.
+
+    - Got a client creation going for BigTable.
+
 
 
     #TE
+
+    - Helped Matt out with some issues around int testing new announcements functionality.
+
+
+
+    17:00 - Log off
+
+    ===================='
+5:
+  text: '====================
+
+    8:00 - Logged on
+
+
+    #PLATFORM
+
+    - Very little progress on bigtable client
+
+
+
+    #TE
+
+    - Reviewed PR for Matt RE announcement functionality (requested changes).
+
+    - Debugged instrument-service deployment issues.
+
+
+
+    17:00 - Log off
+
+    ===================='
+6:
+  text: "====================\n9:00 - Logged on\n\n#PLATFORM\n- A little progress\
+    \ on bigtable client\n\n\n#TE\n - \n\n\n17:00 - Log off\n===================="
+7:
+  text: "====================\n9:00 - Logged on\n\n#PLATFORM\n- Working on the bigtable\
+    \ client in microservice-chasis\n\n\n#TE\n - Reviewed PR for Matt RE announcement\
+    \ stuff in equityPositions. -> Changes requested\n\n\n17:00 - Log off\n===================="
+8:
+  text: Annual leave
+11:
+  text: Annual leave
+12:
+  text: '====================
+
+    08:00 - Logged on train
+
+
+    #PLATFORM
+
+    - Awesome progress with the bigtable client. Just got stuck a bit with the fact
+    that we need to use a column family group.
+
+
+
+    #TE
+
+    - PR review with Matt RE sensitive announcements. Helped debug some int test issues
+    with mock responses being queued and breaking the next int tests.
 
 
 
@@ -42,3 +105,105 @@
     17:00 - Log off
 
     ===================='
+13:
+  text: "====================\n08:30 - Logged on at home\n\n#PLATFORM\n- Working on\
+    \ finishing up the bigtable client stuff\n- Raised PR for the bigtable client\
+    \ work, implementing changes\n\n\n#TE\n- Reviewed PR for Matt to add senstive\
+    \ announcement info to instruments in watchlist and instrumentBodied themselves.\
+    \ \n\n\n\n17:00 - Log off\n===================="
+14:
+  text: '====================
+
+    08:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Working through PR comments.
+
+    - Received more feedback on big table client, working through them.
+
+    - Bigtable client work merged into master.
+
+
+
+    #TE
+
+    - Approved Matt''s PR for announcement info on instruments responses.
+
+    - Investigated PROD issue with pre-market indicative prices not looking correct.
+
+    - Raised two tickets to address pre-market price issues.
+
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+15:
+  text: good friday
+18:
+  text: Easter Monday
+19:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Starting developement on the external API gateway, very little progress
+
+
+
+    #TE
+
+    - Looking into some WARN in instrument service related to dividend data retrieval,
+    dateTimeFormatException. Already a ticket been raised for this.
+
+    - Chat with Matt on tidying up the logging for finclear API exceptions.
+
+    - Approved PRs for Matt (logging API exceptions, handling date parse exceptions).
+
+
+
+    17:00 - Log off
+
+    ===================='
+20:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- \n\n\n#TE\n\
+    - \n\n17:00 - Log off\n===================="
+26:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Making awesome progress with the api-external service
+
+
+
+    #TE
+
+
+
+    20:00 - Log off
+
+    ===================='
+27:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Approved PR\
+    \ for Peter to for a few go service template fixes.\n- Discussion with Patrick\
+    \ on details of routing fot the svc-api-external.\n- Awesome progress on the api-external.\
+    \ Finally have a route working end to end with response body\n\n\n#TE\n- \n\n\
+    23:00 - Log off\n===================="
+29:
+  text: "====================\n8:30 - Logged on at home\n\n#PLATFORM\n- \n\n\n#TE\n\
+    - \n\n17:00 - Log off\n===================="
+30:
+  text: "Physio appt in the morning\n====================\n10:30 - Logged on at home\n\
+    \n#PLATFORM\n- Raised PR for releasing the svc-api-external to UAT contiaing routes\
+    \ to the svc-us-instrument\n\n\n#TE\n- \n\n22:00 - Log off\n===================="
