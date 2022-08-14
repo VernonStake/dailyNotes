@@ -1,0 +1,78 @@
+2:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Massive tech\
+    \ issues, took all morning to get laptop working properly.\n- Lost a lot of local\
+    \ data (always push before you shut down kids), all files and folder went into\
+    \ read only mode, had to go to a restore point to resolve.\n- Bull run team proposals\
+    \ and meeting.\n- Call with Kendall to help out on database functionality. \n\
+    - Had to redo a lot of work lost for the gRPC functionality. Everything besides\
+    \ all the installing of protbuf compilers etc is back where I left off. (PLATFORM-100)\n\
+    \n17:00 - Log off\n====================\n\n\n"
+3:
+  text: "====================\n8:00 - Logged on on train\n\n#PLATFORM\n- \n\n17:00\
+    \ - Log off\n====================\n\n\n"
+4:
+  text: '====================
+
+    Bull run
+
+    ====================
+
+
+
+    '
+5:
+  text: '====================
+
+    Bull run
+
+    ===================='
+8:
+  text: '====================
+
+    Sick leave
+
+    ===================='
+9:
+  text: '====================
+
+    Sick leave
+
+    ===================='
+10:
+  text: '====================
+
+    Sick leave
+
+    ===================='
+11:
+  text: '====================
+
+    Sick leave
+
+    ===================='
+12:
+  text: '====================
+
+    Sick leave
+
+    ===================='
+15:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Caught up with Jesse.
+
+    - Helping out Lynchy investigate a SEG FAULT in the StakeInstrumentService.
+
+
+    17:00 - Log off
+
+    ====================
+
+
+
+    '
