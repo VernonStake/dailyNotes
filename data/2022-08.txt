@@ -1,15 +1,15 @@
 2:
-  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Massive tech\
-    \ issues, took all morning to get laptop working properly.\n- Lost a lot of local\
-    \ data (always push before you shut down kids), all files and folder went into\
-    \ read only mode, had to go to a restore point to resolve.\n- Bull run team proposals\
-    \ and meeting.\n- Call with Kendall to help out on database functionality. \n\
-    - Had to redo a lot of work lost for the gRPC functionality. Everything besides\
-    \ all the installing of protbuf compilers etc is back where I left off. (PLATFORM-100)\n\
-    \n17:00 - Log off\n====================\n\n\n"
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Massive tech
+    issues, took all morning to get laptop working properly.\n- Lost a lot of local
+    data (always push before you shut down kids), all files and folder went into read
+    only mode, had to go to a restore point to resolve.\n- Bull run team proposals
+    and meeting.\n- Call with Kendall to help out on database functionality. \n- Had
+    to redo a lot of work lost for the gRPC functionality. Everything besides all
+    the installing of protbuf compilers etc is back where I left off. (PLATFORM-100)\n\n17:00
+    - Log off\n====================\n\n\n"
 3:
-  text: "====================\n8:00 - Logged on on train\n\n#PLATFORM\n- \n\n17:00\
-    \ - Log off\n====================\n\n\n"
+  text: "====================\n8:00 - Logged on on train\n\n#PLATFORM\n- \n\n17:00
+    - Log off\n====================\n\n\n"
 4:
   text: '====================
 
@@ -66,7 +66,125 @@
 
     - Caught up with Jesse.
 
+<<<<<<< HEAD
     - Helping out Lynchy investigate a SEG FAULT in the StakeInstrumentService.
+=======
+    - Forgot how messed up my dev env was after having to restore OS, fixed it up
+    nicely.
+
+    - Tried helping out Lynchy investigate a SEG FAULT in the StakeInstrumentService,
+    but env issues made it take forever for indexing to occur. Eventually got to a
+    point where I could give Lynchy some pointers on getting a local to run in to
+    debug seg fault.
+
+    - Recalibrated and caught up to where I left off before getting sick.
+
+    - Got the gRPC code generated from openAPI -> proto -> go using standard terminal
+    commands, looks very likely that bazel should be used to automate this workflow,
+    seeing it pop up everywhere. Will raise a ticket to POC soon.
+
+
+
+    23:00 - Log off
+
+    ====================
+
+
+
+    '
+16:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Awesome gRPC progress, implemented the functionality. Just need to actually
+    hook it into main.
+
+
+
+    17:30 - Log off
+
+    ====================
+
+
+
+    '
+17:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Raised PR for initial gRPC implementation in demo-service. (PLATFORM-100)
+
+    - Started working on a gRPC server hook pattern in the microservice-chassis.
+
+    - Golang dev catch up meeting.
+
+
+
+    17:00 - Log off
+
+    ====================
+
+    '
+18:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Attempted
+    walkthrough gRPC PR in demo-service w/ Jesse until power got cut.\n- Crypto drive
+    meeting. \n- Implemented a pattern to hook a gRPC server into the microservice
+    chassis.\n- Started implementing a pattern to hook in gRPC clients into the microservice
+    chassis.\n\n\n17:00 - Log off\n====================\n\n"
+19:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Approved quick PR for Peter to fix bug in tpl-go-microservice.
+
+    - Raised PR for the gRPC patterns in the micro-service-chassis. (PLATFORM-100)
+
+    - PR for gRPC patterns in chassis got merged, did a beta release of microservice-chassis.
+    (PLATFORM-100)
+
+    - Started refactoring the gRPC implenetation in the demo-service to incorporate
+    tge chassis pattern. (PLATFORM-100)
+
+
+
+    17:30 - Log off
+
+    ====================
+
+
+    '
+22:
+  text: '====================
+
+    9:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Refactored the demo-service to use new chassis pattern to hook in gRPC server
+    and raised PR (MERGED) (PLATFORM-100)
+
+    - Helped out Yutian with some stake admin stuff for the crypto-instrument-service
+
+    - Did a quick tidy up of api-external before starting work on the gRPC functionality,
+    raised PR to merge in and cut noise for the implementation PR.
+
+    - Got cracking on adding the gRPC layer to the api-external for demo-service end
+    points. (PLATFORM-100)
+
+>>>>>>> c1c0352 (Commit latest updates)
 
 
     17:00 - Log off
@@ -74,5 +192,119 @@
     ====================
 
 
+<<<<<<< HEAD
 
     '
+=======
+    '
+23:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Weekly sync
+    w/ Jesse\n- Closed PLATROM-100, initial gRPC pattern in api-external is done.\n-
+    Continued dev in api-external to add gRPC handling for the demo-service api. (PLATFORM-101)\n-
+    Made some fixes and enhancements the demo-service and chassis (PLATFORM-101)\n-
+    Run into an issue where my go env is not pulling in the chassis version I specify
+    go.mod\n- \n\n\n17:00 - Log off\n====================\n\n"
+24:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Did a new
+    beta release of the go-microservice-chassis. \n- Approved PR for Kaique in api-external.\n-
+    PLATFORM team sprint planning session t kick off sprint 16.\n- Worked on the gRPC
+    implmentation in the api-external. (PLATFORM-101)\n- Got a bit stuck adding int
+    tests to the api-external for the gRPC stuff, finally have it running. \n\n\n17:30
+    - Log off\n====================\n\n"
+25:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Raised PR for the api-external to comunicate to demo-service using gRPC.
+
+    - Working on content for the knowledge session booked for friday.
+
+
+
+    17:30 - Log off
+
+    ====================
+
+
+    '
+26:
+  text: '====================
+
+    8:00 - Logged on on train
+
+
+    #PLATFORM
+
+    - Finished up preperation for the gRPC learning session and hosted the session.
+
+    - Picked up ticket to add linting and test coverage to github actions to the microservice-chassiss
+    (PLATFORM-174)
+
+
+    17:00- Log off
+
+    ====================
+
+
+    '
+29:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Helped out Kendall and Yutian to get started with gRPC .
+
+    - Approved PR for Jesse to tidy up int tests in the demo service.
+
+    - Raised PR for adding linting and test coverage to the chassis repo. (PLATFORM-174)
+
+    - Helped out Kendall w/ local dev issues being unable to download dependencies
+    when running go mod tidy, unblocked by vendoring on my pc and pushing.
+
+
+
+    17:00- Log off
+
+    ====================
+
+
+    '
+30:
+  text: '====================
+
+    8:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Sync with Jesse.
+
+    - Couple of calls with other devs answering gRPC questions.
+
+    - Reviewed PR for Kendall for gRPC server in crypot-hedger.
+
+    - Tested out api-external to demo-service gRPC, getting errors I suspect are load
+    balancer related.
+
+    - Spent a little bit of time looking at the pub sub dead letter stuff, but had
+    lots of interuptions.
+
+
+
+    17:20- Log off
+
+    ====================
+
+
+    '
+31:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- \n\n\n17:00-
+    Log off\n====================\n\n"
+>>>>>>> c1c0352 (Commit latest updates)
