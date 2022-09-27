@@ -1,0 +1,345 @@
+1:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Meetings all morning.
+
+    - Added a couple of tickets for GCP decomission of US region.
+
+    - Worked on the pub/sub dead letter policy. Devs can now configure a topic to
+    have a dead letter policy. (PLATFORM-210)
+
+    - Picked up ticket to modify the svc-crypto-pricing-ws to follow regional singleton
+    pattern for publshing prices to pub/sub. (PLATFORM-216)
+
+    - Fixed bug in the microservice-chassis where gRPC server listens to localhost
+    and not 0.0.0.0. Released new chassis version 0.18.1 (PLATFORM-101)
+
+    - Raised PRs to update api-external and demo-service to use v0.18.1 of microservice-chassis.
+    (PLATFORM-101)
+
+
+
+    17:30- Log off
+
+    ====================
+
+
+    '
+2:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Had a look
+    into the hedger svc-crypto-hedger and svc-crypto-ws-listener for gRPC issues.
+    Looks like ws-listener has kraken isssues, and gRPC errors are due to service
+    shutdown being called.\n- Continued working on the regional pub sub implementation
+    \n\n\n17:00 - Log off\n====================\n\nQ from Sven: How will tracing behave
+    between java services and golang services (Stake-Trace-Id vs trace_id)"
+5:
+  text: '====================
+
+    9:15 - Logged on at home
+
+
+    #PLATFORM
+
+    - Worked on the pub sub regional and regional lock implementation in the svc-crypto-pricing-ws,
+    got a bit stuck with int tests not completing, resolved
+
+    - Couple of interuptions to help out other devs and review some PRs.
+
+
+
+
+    17:00 - Log off
+
+    ====================
+
+
+    '
+6:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Sync meeting with Jesse.
+
+    - Raised a request w/ dev ops to create a DB for the svc-crypto-pricing-ws, received
+    credentials from Patrick.
+
+    - Finished implementing the regional singleton running pattern in the svc-crypto-pricing-ws,
+    but ran into a nasty merge that had a ton of confilcts.
+
+    - Raised PR in draft for svc-crypto-pricing-ws as a regional singleton.
+
+
+
+    17:00 - Log off
+
+    ====================
+
+
+    '
+7:
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM \n- Worked on
+    the regional pubsub subscriber in svc-crypto-pricing. (PLATFORM-217)  \\\\\n-
+    Sprint planning session for PLATFORM sprint 17.  \\\\\n- Crypto instrument management
+    meeting.  \\\\\n- Finalised PR for regional singleton for svc-crypto-pricing-ws
+    (PLATFORM-216)  \\\\\n- Raised a PR for regional pubsub subscription for pricig
+    in svc-crypto-pricing (PLATFORM-217)  \\\\\n- Raised PR for a quick fix for gRPC
+    server shutdown, no need to manually close net listeners used by gRPC server.
+    Merged into release branch  \\\\\n- Picked up ticket and raised PR for exposing
+    the pub sub message ID to the Handler. Merged into release branch (PLATFORM-215)
+    \ \\\\\n- Picked up ticket to enrich downstream requests with admin details for
+    requests to svc-api-internal (PLATFORM-218)  \\\\\n \n\n17:00 - Log off\n====================\n\n"
+8:
+  text: '#TODO: --Modify the github deploy config for pricing-ws to create instances
+    in each region.--
+
+    ====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Looking into gRPC issue Kendall has encountered in svc-crypto-orders (wrong
+    port was being used to host REST server)
+
+    - Crypto drive meeting.
+
+    - Couple of calls w/ Yutian helping with patterns for slow pub sub triggered job.
+
+    - Debugging test case failures that are randomly popping up in both the svc-crypto-pricing
+    and svc-crypto-pricing-ws prevnting PRs getting closed. (PLATFORM-216 & PLATFORM-217)
+
+
+
+    17:00 - Log off
+
+    ====================
+
+
+    '
+9:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Merged PR for the svc-crypto-pricing-ws for regional singleton, having crDB
+    connection issues, working with Peter to resolve.
+
+    - Fixed up flakey test cases testing async code in the svc-crypto-pricing-ws.
+
+    - Deployed svc-crypto-pricing-ws and svc-crypto-pricing with new regional singleton
+    and regional price subscription pattern. Fixed all issues and looks to be working
+    correctly. Closed tickets. (PLATFORM-216 & PLATFORM-217)
+
+    - Did some work in the chassis to create an admin token header similar to the
+    stake user token. Dived into the redis to grab some auth tokens and figure out
+    what can be extracted properly. (PLATFORM-218)
+
+
+
+    17:00 - Log off
+
+    ===================='
+12:
+  text: '====================
+
+    9:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Raised PR and merged in new admin token details in microservice-chassis. Released
+    microservice-chassis v.0.20.0-beta.1 (PLATFORM-218)
+
+    - Dev work in the svc-api-internal to enrich requests with new StakeAdminToken
+    for downstream services. (PLATFORM-218)
+
+
+
+    17:00 - Log off
+
+    ===================='
+13:
+  text: '#TODO: --add 22 September to holidays for asx config in parameter store.--
+
+    ====================
+
+    8:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Finished up the dev work for the api-internal to enrich requests with admin
+    details in the stake-admin-token header. PR raised, merged and deployed new api-internal
+    to UAT (PLATFORM-218)
+
+    - Sync with Jesse.
+
+    - Picked up ticket to investigate web socket issue in java microservices. Discovered
+    issue and attempted a fix, fix is not working, figuring out why. (PLATFORM-214)
+
+
+
+
+    17:00 - Log off
+
+    ===================='
+14:
+  text: "#TODO:  Deploy StakePricingAusService and StakeEventsAusService to stg and
+    prd EOD.\n\n====================\n8:30 - Logged on on train\n\n#PLATFORM\n- Raised
+    PR to add missing override method for new web socket connection manager in java
+    microservice-common. Merged (PLATFORM-214)\n- Raised PR to uplift the StakePricingAusService
+    to use new version of microservice-common. Merged and deployed to DEV (PLATFORM-214
+    & PLATFORM-201)\n- Raised PR to uplift the StakeEventsAusService to use new version
+    of microservice-common. Merged and deployed to DEV (PLATFORM-214 & PLATFORM-202)\n-
+    Go dev catch up.\n- \n- Logged into mac mini and started setting up environment
+    in preperation testing cockroach enterprise docker functionality. (PLATFORM-232)\n\n\n17:00
+    - Log off\n===================="
+15:
+  text: "#TODO:  Deploy StakePricingAusService and StakeEventsAusService to stg and
+    prd EOD.\n\n====================\n9:00 - Logged on at home\n\n#PLATFORM\n- \n\n\n17:00
+    - Log off\n===================="
+16:
+  text: '====================
+
+    9:00: Logged on at home
+
+
+    #PLATFORM
+
+    - Continued work on the improvements to cockroach enterprise local dev.
+
+    - Trying to figure out how to completely wipe docker container state for the cockroach
+    containers.
+
+
+
+    17:00 - Log off
+
+    ===================='
+19:
+  text: '====================
+
+    7:30: Logged on on train
+
+
+    #PLATFORM
+
+    - Awesome progress (finally) to get the enterprise cockroach DB local testing
+    process smoother. Local dev env is now kept nice and tidy between test cases.
+    More consitent test runs. (PLATFORM-232)
+
+    - Raised PR for env improvement for CRDB local testing (merged). (PLATFORM-232)
+
+    - Started scoping out stretch goal to retrieve CRDB EE license key instead of
+    storing in dev''s local env. (PLATFORM-232)
+
+
+
+    17:00 - Log off
+
+    ===================='
+20:
+  text: '====================
+
+    8:30 - Logged on on train
+
+
+    #PLATFORM
+
+    - Lots of setup was still required on the M1 mac to enable investigation of CRDB
+    EE issues when running local tests (PLATFORM-232)
+
+    - Updated the svc-microsrvice-demo with beta chassis containing CRDB EE enhancements
+    to verify that everything is more stable (PLATFORM-232)
+
+    - Had a call w/ Yutian to find out if there were specific issues he was facing
+    on M1 silicon RE CRDB local testing, looks all resolved with new changes in chassis.
+
+    - Tested services running int test on M1 silicon using CRDB EE functionality,
+    verified that it works. (PLATFORM-232)
+
+    - Started up a repo for cloud function to retrieve CRDB EE license for local tests
+    and started inlpementing (PLATFORM-232).
+
+
+
+    17:00 - Log off
+
+    ===================='
+21:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Sprint planning session, kicked off new sprint. Decide the retrieval of CRDB
+    EE license stretch goal excedds original ticket scope, created a new ticket (PLATFORM-242),
+    parked for now since we have higher priority work to do. Closed PLATFORM-232
+
+    - Picked up ticket to investigate gRPC auto retry (PLATFORM-219).
+
+
+
+    17:00 - Log off
+
+    ===================='
+22:
+  text: Mourning the queen  public holiday.
+23:
+  text: "====================\n8:00 - Logged on at home\n\n#PLATFORM\n- Fortnightly
+    catch up.\n- Released new chassis version. Raised PR for release -> main, updated
+    dependencies and created new release of chassis v0.20.0\n- Worked through some
+    pub sub dead letter ssues with Jesse. \n\n\n\n17:00 - Log off\n===================="
+26:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Approved a couple of PRs through the day
+
+    - Chatted with Yutian on pub sub dead letter stuff.
+
+    - Got horribly stuck with gRPC int testing, it''s really difficult to work with
+    the gRPC server to disconnect and reconnect etc. (PLATFORM-219)
+
+
+
+    17:00 - Log off
+
+    ===================='
+27:
+  text: '====================
+
+    9:00 - Logged on at home
+
+
+    #PLATFORM
+
+    - Sync with Jesse
+
+    - Call w/ Kendall to chat about redis key locking mechanism, ticket raised to
+    scope next sprint.
+
+
+
+    17:00 - Log off
+
+    ===================='

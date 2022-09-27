@@ -66,6 +66,9 @@
 
     - Caught up with Jesse.
 
+<<<<<<< HEAD
+    - Helping out Lynchy investigate a SEG FAULT in the StakeInstrumentService.
+=======
     - Forgot how messed up my dev env was after having to restore OS, fixed it up
     nicely.
 
@@ -181,6 +184,7 @@
     - Got cracking on adding the gRPC layer to the api-external for demo-service end
     points. (PLATFORM-100)
 
+>>>>>>> c1c0352 (Commit latest updates)
 
 
     17:00 - Log off
@@ -188,6 +192,10 @@
     ====================
 
 
+<<<<<<< HEAD
+
+    '
+=======
     '
 23:
   text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- Weekly sync
@@ -297,31 +305,6 @@
 
     '
 31:
-  text: '====================
-
-    9:00 - Logged on at home
-
-
-    #PLATFORM
-
-    - Meeting w/ Kendall to help with integration testing gRPC.
-
-    - Merged dependabot updates into release branch for chassis updates.
-
-    - Started dev work to implement dead letter policy for pub sub client. (PLATFORM-210)
-
-    - Meeting w/ Pete to discuss dead letter policy. Aggreed to go with automatically
-    create a dead letter topic whenever we create a new topic. Will restrospectively
-    add dead letter to the existing topics. (aiming for Friday to have new topic +
-    deadletter automation in place, will decide when to retrospectively add dead letters
-    to existing after this point). (PLATFORM-210)
-
-
-
-
-    17:00- Log off
-
-    ====================
-
-
-    '
+  text: "====================\n9:00 - Logged on at home\n\n#PLATFORM\n- \n\n\n17:00-
+    Log off\n====================\n\n"
+>>>>>>> c1c0352 (Commit latest updates)
