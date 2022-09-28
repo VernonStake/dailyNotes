@@ -338,6 +338,36 @@
     - Call w/ Kendall to chat about redis key locking mechanism, ticket raised to
     scope next sprint.
 
+    - Finished off the dev work for the gRPC client retry after some finicky debugging
+    (PLATFORM-219)
+
+
+    17:00 - Log off
+
+    ===================='
+28:
+  text: '====================
+
+    7:30 - Logged on at home
+
+
+    #PLATFORM
+
+    - Worked with TE to have a look over DST changes for crons.
+
+    - Short pair programming to resolve redis test case failures with Jesse (did not
+    work :( )
+
+    - Call with Matt to go over market status changes for ASX instrument service.
+
+    - Call w/ Yutian RE pub sub taking forever to check if topic/subscription exists
+    and app sitting idle when finally failing. Raised ticket in backlog to address
+    next sprint.
+
+    - Raised PR for the gRPC client retry (PLATFORM-219)
+
+    - Golang dev catch up.
+
 
 
     17:00 - Log off
